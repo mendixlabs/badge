@@ -13,16 +13,6 @@
             <category>Display</category>
             <description>The label to display before the badge/label</description>
         </property>
-        <property key="badgeType" type="enumeration" defaultValue="badge">
-            <caption>Render type</caption>
-            <category>Display</category>
-            <description>Render either the display of a label or of a badge</description>
-            <enumerationValues>
-                <enumerationValue key="badge">Badge</enumerationValue>
-                <enumerationValue key="button">Badge button</enumerationValue>
-                <enumerationValue key="label">Label</enumerationValue>
-            </enumerationValues>
-        </property>
         <property key="badgeClass" type="enumeration" defaultValue="default">
             <caption>Style</caption>
             <category>Display</category>

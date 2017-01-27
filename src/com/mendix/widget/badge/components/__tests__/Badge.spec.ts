@@ -18,10 +18,9 @@ describe("Badge", () => {
     describe("should render the structure", () => {
         it("for badge", () => {
             const badgeProps: BadgeProps = {
-                microflow: { onClickType: "doNothing" },
-                badgeType: "badge",
                 badgeValue: "0",
                 label: "default",
+                microflow: { onClickType: "doNothing" },
                 style: "default"
             };
 
@@ -39,63 +38,6 @@ describe("Badge", () => {
             );
         });
 
-        it("for button", () => {
-            const badgeProps: BadgeProps = {
-                microflow: { onClickType: "doNothing" },
-                badgeType: "button",
-                badgeValue: "0",
-                disabled: "false",
-                label: "default",
-                style: "default"
-            };
-
-            const badgeComponent = createBadge(badgeProps);
-
-            expect(badgeComponent).toBeElement(
-                createElement("button",
-                    {
-                        className: classNames("widget-badge btn",
-                            { [`btn-${badgeProps.style}`]: !!badgeProps.style }
-                        ),
-                        disabled: "false",
-                        onClick: jasmine.any(Function) as any
-                    },
-                    DOM.span({ className: "widget-badge-text" }, badgeProps.label),
-                    DOM.span({ className: "badge" }, badgeProps.badgeValue)
-                )
-            );
-        });
-
-        it("for label", () => {
-            const badgeProps: BadgeProps = {
-                microflow: { onClickType: "doNothing" },
-                badgeType: "label",
-                badgeValue: "0",
-                disabled: "false",
-                label: "default",
-                style: "default"
-            };
-
-            const badgeComponent = createBadge(badgeProps);
-
-            expect(badgeComponent).toBeElement(
-                createElement("div",
-                    {
-                        className: classNames("widget-badge-display",
-                            { "widget-badge-link": !!badgeProps.microflow }
-                        ),
-                        onClick: jasmine.any(Function) as any
-                    },
-                    DOM.span({ className: "widget-badge-text" }, badgeProps.label),
-                    DOM.span({
-                        className: classNames("widget-badge", "label",
-                            { [`label-${badgeProps.style}`]: !!badgeProps.style }
-                        )
-                    }, badgeProps.badgeValue)
-                )
-            );
-        });
-
         it("for validation alert", () => {
             const message = "This is an error";
             const validationAlert = shallow(createElement(ValidationAlert, { message }));
@@ -109,7 +51,6 @@ describe("Badge", () => {
     it("should render with style 'success'", () => {
         const badgeProps: BadgeProps = {
             microflow: { onClickType: "doNothing" },
-            badgeType: "badge",
             style: "success"
         };
 
@@ -128,7 +69,6 @@ describe("Badge", () => {
                     },
                     onClickType: "callMicroflow"
                 },
-                badgeType: "label",
                 style: "success"
             };
             spyOn(window.mx.ui, "action").and.callThrough();
@@ -154,7 +94,6 @@ describe("Badge", () => {
                     },
                     onClickType: "callMicroflow"
                 },
-                badgeType: "label",
                 style: "success"
             };
 
@@ -178,7 +117,6 @@ describe("Badge", () => {
                     },
                     onClickType: "callMicroflow"
                 },
-                badgeType: "label",
                 style: "success"
             };
 
@@ -208,7 +146,6 @@ describe("Badge", () => {
                         pageSetting: "popup"
                     }
                 },
-                badgeType: "label",
                 style: "success"
             };
             spyOn(window.mx.ui, "openForm").and.callThrough();
@@ -233,7 +170,6 @@ describe("Badge", () => {
                         pageSetting: "popup"
                     }
                 },
-                badgeType: "label",
                 style: "success"
             };
             const badge = createBadge(badgeProps);
@@ -258,7 +194,6 @@ describe("Badge", () => {
                         pageSetting: "popup"
                     }
                 },
-                badgeType: "label",
                 style: "success"
             };
             spyOn(window.mx.ui, "error");

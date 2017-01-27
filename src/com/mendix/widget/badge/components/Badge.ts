@@ -9,7 +9,6 @@ export const ValidationAlert: StatelessComponent<{ message: string }> = (props) 
 
 export interface BadgeProps {
     label?: string;
-    badgeType: string;
     badgeValue?: string;
     style?: string;
     microflow?: {
@@ -29,7 +28,7 @@ export interface BadgeProps {
 }
 
 export class Badge extends Component<BadgeProps, { alertMessage: string }> {
-    static defaultProps: BadgeProps = { badgeType: "badge", label: "default", style: "default" };
+    static defaultProps: BadgeProps = { label: "default", style: "default" };
     private onClickEvent: MouseEventHandler<HTMLDivElement>;
 
     constructor(props: BadgeProps) {
@@ -44,16 +43,6 @@ export class Badge extends Component<BadgeProps, { alertMessage: string }> {
     }
 
     render() {
-        if (this.props.badgeType === "button") {
-            return this.createBadgeButton();
-        } else if (this.props.badgeType === "label") {
-            return this.createBadgeLabel();
-        } else {
-            return this.createBadge();
-        }
-    }
-
-    private createBadge() {
         return createElement("div",
             {
                 className: classNames("widget-badge-display",
@@ -64,39 +53,6 @@ export class Badge extends Component<BadgeProps, { alertMessage: string }> {
             DOM.span({ className: "widget-badge-text" }, this.props.label),
             DOM.span({
                 className: classNames("widget-badge", "badge",
-                    { [`label-${this.props.style}`]: !!this.props.style }
-                )
-            }, this.props.badgeValue),
-            this.state.alertMessage ? createElement(ValidationAlert, { message: this.state.alertMessage }) : null
-        );
-    }
-
-    private createBadgeButton() {
-        return createElement("button",
-            {
-                className: classNames("widget-badge btn",
-                    { [`btn-${this.props.style}`]: !!this.props.style }
-                ),
-                disabled: this.props.disabled,
-                onClick: this.onClickEvent
-            },
-            DOM.span({ className: "widget-badge-text" }, this.props.label),
-            DOM.span({ className: "badge" }, this.props.badgeValue),
-            this.state.alertMessage ? createElement(ValidationAlert, { message: this.state.alertMessage }) : null
-        );
-    }
-
-    private createBadgeLabel() {
-        return createElement("div",
-            {
-                className: classNames("widget-badge-display",
-                    { "widget-badge-link": !!this.props.microflow }
-                ),
-                onClick: this.onClickEvent
-            },
-            DOM.span({ className: "widget-badge-text" }, this.props.label),
-            DOM.span({
-                className: classNames("widget-badge", "label",
                     { [`label-${this.props.style}`]: !!this.props.style }
                 )
             }, this.props.badgeValue),

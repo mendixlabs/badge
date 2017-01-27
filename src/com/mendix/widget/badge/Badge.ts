@@ -11,7 +11,6 @@ class Badge extends WidgetBase {
     private valueAttribute: string;
     private styleAttribute: string;
     private labelAttribute: string;
-    private badgeType: "button" | "label" | "badge";
     private label: string;
     private badgeClass: string;
     private microflow: string;
@@ -51,7 +50,6 @@ class Badge extends WidgetBase {
                    pageSetting: this.pageSettings
                }
            },
-           badgeType: this.badgeType,
            badgeValue: this.getValue(this.valueAttribute, ""),
            disabled: this.contextObject ? undefined : "disabled",
            label: this.getValue(this.labelAttribute, this.label),
