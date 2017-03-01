@@ -37,6 +37,9 @@ class Badge extends WidgetBase {
 
    private updateRendering() {
        render(createElement(BadgeComponent, {
+           badgeValue: this.getValue(this.valueAttribute, ""),
+           disabled: this.contextObject ? undefined : "disabled",
+           label: this.getValue(this.labelAttribute, this.label),
            microflow: {
                microflowProps: {
                    guid: this.contextObject ? this.contextObject.getGuid() : undefined,
@@ -50,9 +53,6 @@ class Badge extends WidgetBase {
                    pageSetting: this.pageSettings
                }
            },
-           badgeValue: this.getValue(this.valueAttribute, ""),
-           disabled: this.contextObject ? undefined : "disabled",
-           label: this.getValue(this.labelAttribute, this.label),
            style: this.getValue(this.styleAttribute, this.badgeClass)
        }), this.domNode);
    }
@@ -90,9 +90,8 @@ class Badge extends WidgetBase {
         }
     }
 }
-
 // tslint:disable : only-arrow-functions
-dojoDeclare("com.mendix.widget.badge.Badge", [ WidgetBase ], (function(Source: any) {
+dojoDeclare("com.mendix.widget.custom.badge.Badge", [ WidgetBase ], (function(Source: any) {
         let result: any = {};
         for (let i in Source.prototype) {
             if (i !== "constructor" && Source.prototype.hasOwnProperty(i)) {
