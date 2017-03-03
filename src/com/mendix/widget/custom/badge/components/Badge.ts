@@ -39,7 +39,7 @@ export class Badge extends Component<BadgeProps, { alertMessage: string }> {
     }
 
     componentDidMount() {
-        this.checkConfig();
+        // this.checkConfig();
     }
 
     render() {
@@ -58,22 +58,6 @@ export class Badge extends Component<BadgeProps, { alertMessage: string }> {
             }, this.props.badgeValue),
             this.state.alertMessage ? createElement(ValidationAlert, { message: this.state.alertMessage }) : null
         );
-    }
-
-    private checkConfig() {
-        const errorMessage: string[] = [];
-        if (this.props.microflow.onClickType === "callMicroflow"
-            && !this.props.microflow.microflowProps.name) {
-            errorMessage.push("'On click' call a microFlow is set " +
-                "and there is no 'Microflow' Selected in tab Events");
-        }
-        if (this.props.microflow.onClickType === "showPage" && !this.props.microflow.pageProps.page) {
-            errorMessage.push("'On click' Show a page is set and there is no 'Page' Selected in tab 'Events'");
-        }
-        if (errorMessage.length > 0) {
-            errorMessage.unshift("Error in configuration of the Badge widget");
-            this.setState({ alertMessage: errorMessage.join("\n") });
-        }
     }
 
     private handleOnClick(props: BadgeProps) {

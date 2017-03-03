@@ -1,6 +1,6 @@
 import { shallow } from "enzyme";
 import { DOM, createElement } from "react";
-import * as classNames from "classnames";
+// import * as classNames from "classnames";
 
 import { Badge, BadgeProps, ValidationAlert } from "../Badge";
 
@@ -8,7 +8,7 @@ import { MockContext, mockMendix } from "tests/mocks/Mendix";
 
 describe("Badge", () => {
     const createBadge = (props: BadgeProps) => shallow(createElement(Badge, props));
-    const newBadgeInstance = (props: BadgeProps) => createBadge(props).instance() as Badge;
+    // const newBadgeInstance = (props: BadgeProps) => createBadge(props).instance() as Badge;
 
     beforeEach(() => {
         window.mx = mockMendix;
