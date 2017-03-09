@@ -2,7 +2,7 @@ import * as dojoDeclare from "dojo/_base/declare";
 import * as WidgetBase from "mxui/widget/_WidgetBase";
 
 import { createElement } from "react";
-import { render } from "react-dom";
+import { render, unmountComponentAtNode } from "react-dom";
 
 import { BadgeOnclick, PageSettings } from "./components/Badge";
 import BadgeContainer from "./components/BadgeContainer";
@@ -29,6 +29,12 @@ class Badge extends WidgetBase {
         if (callback) {
             callback();
         }
+    }
+
+    uninitialize(): boolean {
+        unmountComponentAtNode(this.domNode);
+
+        return true;
     }
 
    private updateRendering() {
