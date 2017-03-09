@@ -1,7 +1,7 @@
 import { shallow } from "enzyme";
 import { DOM, createElement } from "react";
 
-import { Badge, BadgeProps, ValidationAlert } from "../Badge";
+import { Badge, BadgeProps } from "../Badge";
 import { Alert } from "../Alert";
 
 import { MockContext, mockMendix } from "tests/mocks/Mendix";
@@ -28,15 +28,6 @@ describe("Badge", () => {
                     DOM.span({ className: "widget-badge badge label-default" }, badgeProps.badgeValue),
                     createElement(Alert)
                 )
-            );
-        });
-
-        it("for validation alert", () => {
-            const message = "This is an error";
-            const validationAlert = shallow(createElement(ValidationAlert, { message }));
-
-            expect(validationAlert).toBeElement(
-                DOM.div({ className: "alert alert-danger widget-validation-message" }, message)
             );
         });
     });

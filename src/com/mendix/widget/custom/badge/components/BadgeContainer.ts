@@ -70,7 +70,7 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
     private updateValues(contextObject: mendix.lib.MxObject) {
         this.setState({
             badgeValue: this.getValue(contextObject, this.props.valueAttribute, ""),
-            label: this.getValue(contextObject, this.props.labelAttribute, "new"),
+            label: this.getValue(contextObject, this.props.labelAttribute, this.props.label),
             style: this.getValue(contextObject, this.props.styleAttribute, this.props.badgeClass)
         });
     }
@@ -108,7 +108,7 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
     }
 
     private checkConfig(): string {
-        let errorMessage: string = "";
+        let errorMessage = "";
         if (this.props.onClickEvent === "callMicroflow" && !this.props.microflow) {
             errorMessage = "on click microflow is required";
         } else if (this.props.onClickEvent === "showPage" && !this.props.page) {
@@ -124,6 +124,11 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
     private handleOnClick() {
         if (this.props.onClickEvent === "callMicroflow"
             && this.props.microflow && this.props.contextObject.getGuid()) {
+            const context = new mendix.lib.MxContext();
+            // context.setContext(this.props.contextObject);
+            context.setTrackId(this.props.contextObject.getGuid());
+            context.setTrackEntity(this.props.contextObject.getEntity());
+
             window.mx.ui.action(this.props.microflow, {
                 error: (error) => {
                     this.setState({
@@ -140,6 +145,7 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
         } else if (this.props.onClickEvent === "showPage"
             && this.props.page && this.props.contextObject.getGuid()) {
             const context = new mendix.lib.MxContext();
+            // context.setContext(this.props.contextObject);
             context.setTrackId(this.props.contextObject.getGuid());
             context.setTrackEntity(this.props.contextObject.getEntity());
 
