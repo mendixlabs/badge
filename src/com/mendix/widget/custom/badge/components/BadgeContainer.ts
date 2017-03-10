@@ -115,7 +115,7 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
             errorMessage = "on click page is required";
         }
         if (errorMessage) {
-            errorMessage = `Error in progress circle configuration: ${errorMessage}`;
+            errorMessage = `Error in badge configuration: ${errorMessage}`;
         }
 
         return errorMessage;
