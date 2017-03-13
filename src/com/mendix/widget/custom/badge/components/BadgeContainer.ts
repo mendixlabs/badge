@@ -31,13 +31,12 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
         super(props);
 
         this.state = {
-            alertMessage: this.checkConfig(),
+            alertMessage: this.validateProps(),
             badgeValue: this.getValue(props.contextObject, props.valueAttribute, ""),
             label: this.getValue(props.contextObject, props.labelAttribute, this.props.label),
-            showAlert: !!this.checkConfig(),
+            showAlert: !!this.validateProps(),
             style: this.getValue(props.contextObject, props.styleAttribute, props.badgeClass)
         };
-        this.subscriptionHandles = [];
         this.resetSubscriptions(props.contextObject);
         this.handleOnClick = this.handleOnClick.bind(this);
     }
@@ -50,9 +49,8 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
         return createElement(Badge, {
             alertMessage: this.state.alertMessage,
             badgeValue: this.state.badgeValue,
-            disabled: this.props.contextObject ? undefined : "disabled",
+            clickable: !!this.props.microflow,
             label: this.state.label,
-            microflow: this.props.microflow,
             onClickAction: this.handleOnClick,
             style: this.state.style
         });
@@ -85,6 +83,7 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
     private resetSubscriptions(contextObject: mendix.lib.MxObject) {
         this.unsubscribe();
 
+        this.subscriptionHandles = [];
         if (contextObject) {
             this.subscriptionHandles.push(window.mx.data.subscribe({
                 callback: () => this.updateValues(contextObject),
@@ -107,7 +106,7 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
         }
     }
 
-    private checkConfig(): string {
+    private validateProps(): string {
         let errorMessage = "";
         if (this.props.onClickEvent === "callMicroflow" && !this.props.microflow) {
             errorMessage = "on click microflow is required";
@@ -122,40 +121,32 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
     }
 
     private handleOnClick() {
-        if (this.props.onClickEvent === "callMicroflow"
-            && this.props.microflow && this.props.contextObject.getGuid()) {
-            const context = new mendix.lib.MxContext();
-            // context.setContext(this.props.contextObject);
-            context.setTrackId(this.props.contextObject.getGuid());
-            context.setTrackEntity(this.props.contextObject.getEntity());
-
-            window.mx.ui.action(this.props.microflow, {
+        const { contextObject, onClickEvent, microflow, page } = this.props;
+        const context = new mendix.lib.MxContext();
+        context.setContext(contextObject.getEntity(), contextObject.getGuid());
+        if (onClickEvent === "callMicroflow" && microflow && contextObject.getGuid()) {
+            window.mx.ui.action(microflow, {
+                context,
                 error: (error) => {
                     this.setState({
                         alertMessage:
-                        `Error while executing microflow: ${this.props.microflow}: ${error.message}`,
+                        `Error while executing microflow: ${microflow}: ${error.message}`,
                         showAlert: false
                     });
                 },
                 params: {
                     applyto: "selection",
-                    guids: [ this.props.contextObject.getGuid() ]
+                    guids: [ contextObject.getGuid() ]
                 }
             });
-        } else if (this.props.onClickEvent === "showPage"
-            && this.props.page && this.props.contextObject.getGuid()) {
-            const context = new mendix.lib.MxContext();
-            // context.setContext(this.props.contextObject);
-            context.setTrackId(this.props.contextObject.getGuid());
-            context.setTrackEntity(this.props.contextObject.getEntity());
-
-            window.mx.ui.openForm(this.props.page, {
-                 error: (error) =>
+        } else if (onClickEvent === "showPage" && page && contextObject.getGuid()) {
+            window.mx.ui.openForm(page, {
+                context,
+                error: (error) =>
                     this.setState({
-                        alertMessage: `Error while opening page ${this.props.page}: ${error.message}`,
+                        alertMessage: `Error while opening page ${page}: ${error.message}`,
                         showAlert: false
                     }),
-                context,
                 location: this.props.pageSettings
             });
         }
