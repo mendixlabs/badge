@@ -11,7 +11,7 @@ export interface BadgeProps {
     label?: string;
     badgeValue?: string;
     style?: string;
-    microflow?: string;
+    clickable?: boolean;
     onClickAction?: () => void;
     disabled?: string;
 }
@@ -20,7 +20,7 @@ export const Badge = (props: BadgeProps) =>
     createElement("div",
         {
             className: classNames("widget-badge-display",
-                { "widget-badge-link": !!props.microflow }
+                { "widget-badge-link": props.clickable }
             ),
             onClick: props.onClickAction
         },

@@ -40,10 +40,10 @@ class Badge extends WidgetBase {
    private updateRendering() {
         render(createElement(BadgeContainer, {
             badgeClass: this.badgeClass,
+            clickable: this.microflow,
             contextObject: this.contextObject,
             label: this.label,
             labelAttribute: this.labelAttribute,
-            microflow: this.microflow,
             onClickEvent: this.onClickEvent,
             page: this.page,
             pageSettings: this.pageSettings,
