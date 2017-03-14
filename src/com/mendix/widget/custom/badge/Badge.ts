@@ -4,8 +4,7 @@ import * as WidgetBase from "mxui/widget/_WidgetBase";
 import { createElement } from "react";
 import { render, unmountComponentAtNode } from "react-dom";
 
-import { BadgeOnclick, PageSettings } from "./components/Badge";
-import BadgeContainer from "./components/BadgeContainer";
+import BadgeContainer, { OnClickOptions, PageSettings } from "./components/BadgeContainer";
 
 class Badge extends WidgetBase {
     // Attributes from modeler
@@ -15,7 +14,7 @@ class Badge extends WidgetBase {
     private label: string;
     private badgeClass: string;
     private microflow: string;
-    onClickEvent: BadgeOnclick;
+    onClickEvent: OnClickOptions;
     page: string;
     pageSettings: PageSettings;
 

@@ -1,6 +1,6 @@
 import { Component, createElement } from "react";
 
-import { Badge, BadgeOnclick, PageSettings } from "./Badge";
+import { Badge } from "./Badge";
 import { Alert } from "./Alert";
 
 interface BadgeContainerProps {
@@ -11,7 +11,7 @@ interface BadgeContainerProps {
     label: string;
     badgeClass: string;
     microflow: string;
-    onClickEvent: BadgeOnclick;
+    onClickEvent: OnClickOptions;
     page: string;
     pageSettings: PageSettings;
 }
@@ -23,6 +23,9 @@ interface BadgeContainerState {
     showAlert?: boolean;
     style: string;
 }
+
+type OnClickOptions = "doNothing" | "showPage" | "callMicroflow";
+type PageSettings = "content" | "popup" | "modal";
 
 class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState> {
     private subscriptionHandles: number[];
@@ -153,4 +156,4 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
     }
 }
 
-export { BadgeContainer as default };
+export { BadgeContainer as default, OnClickOptions, PageSettings };

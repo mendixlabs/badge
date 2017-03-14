@@ -3,9 +3,6 @@ import { DOM, createElement } from "react";
 import * as classNames from "classnames";
 import { Alert } from "./Alert";
 
-export type BadgeOnclick = "doNothing" | "showPage" | "callMicroflow";
-export type PageSettings = "content" | "popup" | "modal";
-
 export interface BadgeProps {
     alertMessage?: string;
     label?: string;
@@ -16,18 +13,13 @@ export interface BadgeProps {
 }
 
 export const Badge = (props: BadgeProps) =>
-    createElement("div",
-        {
-            className: classNames("widget-badge-display",
-                { "widget-badge-link": props.clickable }
-            ),
+    createElement("div", {
+            className: classNames("widget-badge-display", { "widget-badge-link": props.clickable }),
             onClick: props.onClickAction
         },
         DOM.span({ className: "widget-badge-text" }, props.label),
         DOM.span({
-            className: classNames("widget-badge", "badge",
-                { [`label-${props.style}`]: !!props.style }
-            )
+            className: classNames("widget-badge", "badge", { [`label-${props.style}`]: !!props.style })
         }, props.badgeValue),
         createElement(Alert, { message: props.alertMessage })
     );
