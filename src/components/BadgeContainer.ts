@@ -4,7 +4,7 @@ import { Badge } from "./Badge";
 import { Alert } from "./Alert";
 
 interface BadgeContainerProps {
-    contextObject: mendix.lib.MxObject;
+    mxObject: mendix.lib.MxObject;
     valueAttribute: string;
     styleAttribute: string;
     labelAttribute: string;
@@ -35,12 +35,12 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
 
         this.state = {
             alertMessage: this.validateProps(),
-            badgeValue: this.getValue(props.contextObject, props.valueAttribute, ""),
-            label: this.getValue(props.contextObject, props.labelAttribute, this.props.label),
+            badgeValue: this.getValue(props.mxObject, props.valueAttribute, ""),
+            label: this.getValue(props.mxObject, props.labelAttribute, this.props.label),
             showAlert: !!this.validateProps(),
-            style: this.getValue(props.contextObject, props.styleAttribute, props.badgeClass)
+            style: this.getValue(props.mxObject, props.styleAttribute, props.badgeClass)
         };
-        this.resetSubscriptions(props.contextObject);
+        this.resetSubscriptions(props.mxObject);
         this.handleOnClick = this.handleOnClick.bind(this);
     }
 
@@ -60,44 +60,44 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
     }
 
     componentWillReceiveProps(newProps: BadgeContainerProps) {
-        this.resetSubscriptions(newProps.contextObject);
-        this.updateValues(newProps.contextObject);
+        this.resetSubscriptions(newProps.mxObject);
+        this.updateValues(newProps.mxObject);
     }
 
     componentWillUnmount() {
         this.unsubscribe();
     }
 
-    private updateValues(contextObject: mendix.lib.MxObject) {
+    private updateValues(mxObject: mendix.lib.MxObject) {
         this.setState({
-            badgeValue: this.getValue(contextObject, this.props.valueAttribute, ""),
-            label: this.getValue(contextObject, this.props.labelAttribute, this.props.label),
-            style: this.getValue(contextObject, this.props.styleAttribute, this.props.badgeClass)
+            badgeValue: this.getValue(mxObject, this.props.valueAttribute, ""),
+            label: this.getValue(mxObject, this.props.labelAttribute, this.props.label),
+            style: this.getValue(mxObject, this.props.styleAttribute, this.props.badgeClass)
         });
     }
 
-    private getValue(contextObject: mendix.lib.MxObject, attributeName: string, defaultValue: string) {
-        if (contextObject) {
-            return contextObject.get(attributeName) as string || defaultValue;
+    private getValue(mxObject: mendix.lib.MxObject, attributeName: string, defaultValue: string) {
+        if (mxObject) {
+            return mxObject.get(attributeName) as string || defaultValue;
         }
         return defaultValue;
     }
 
-    private resetSubscriptions(contextObject: mendix.lib.MxObject) {
+    private resetSubscriptions(mxObject: mendix.lib.MxObject) {
         this.unsubscribe();
 
         this.subscriptionHandles = [];
-        if (contextObject) {
+        if (mxObject) {
             this.subscriptionHandles.push(window.mx.data.subscribe({
-                callback: () => this.updateValues(contextObject),
-                guid: contextObject.getGuid()
+                callback: () => this.updateValues(mxObject),
+                guid: mxObject.getGuid()
             }));
 
             [ this.props.valueAttribute, this.props.styleAttribute, this.props.labelAttribute ].forEach((attr) =>
                 this.subscriptionHandles.push(window.mx.data.subscribe({
                     attr,
-                    callback: () => this.updateValues(contextObject),
-                    guid: contextObject.getGuid()
+                    callback: () => this.updateValues(mxObject),
+                    guid: mxObject.getGuid()
                 }))
             );
         }
@@ -124,10 +124,10 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
     }
 
     private handleOnClick() {
-        const { contextObject, onClickEvent, microflow, page } = this.props;
+        const { mxObject, onClickEvent, microflow, page } = this.props;
         const context = new mendix.lib.MxContext();
-        context.setContext(contextObject.getEntity(), contextObject.getGuid());
-        if (onClickEvent === "callMicroflow" && microflow && contextObject.getGuid()) {
+        context.setContext(mxObject.getEntity(), mxObject.getGuid());
+        if (onClickEvent === "callMicroflow" && microflow && mxObject.getGuid()) {
             window.mx.ui.action(microflow, {
                 context,
                 error: (error) => {
@@ -139,10 +139,10 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
                 },
                 params: {
                     applyto: "selection",
-                    guids: [ contextObject.getGuid() ]
+                    guids: [ mxObject.getGuid() ]
                 }
             });
-        } else if (onClickEvent === "showPage" && page && contextObject.getGuid()) {
+        } else if (onClickEvent === "showPage" && page && mxObject.getGuid()) {
             window.mx.ui.openForm(page, {
                 context,
                 error: (error) =>
