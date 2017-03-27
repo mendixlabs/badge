@@ -10,7 +10,7 @@ Badge is a special distinctive mark or token put on any display
 
 ### Dependencies
 
-Mendix 6
+Mendix 7
 
 ### Demo project
 

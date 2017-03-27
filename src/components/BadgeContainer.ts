@@ -52,7 +52,7 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
         return createElement(Badge, {
             alertMessage: this.state.alertMessage,
             badgeValue: this.state.badgeValue,
-            clickable: !!this.props.microflow,
+            clickable: !!this.props.page || !!this.props.microflow,
             label: this.state.label,
             onClickAction: this.handleOnClick,
             style: this.state.style
@@ -132,14 +132,9 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
                 context,
                 error: (error) => {
                     this.setState({
-                        alertMessage:
-                        `Error while executing microflow: ${microflow}: ${error.message}`,
+                        alertMessage: `Error while executing microflow: ${microflow}: ${error.message}`,
                         showAlert: false
                     });
-                },
-                params: {
-                    applyto: "selection",
-                    guids: [ mxObject.getGuid() ]
                 }
             });
         } else if (onClickEvent === "showPage" && page && mxObject.getGuid()) {
