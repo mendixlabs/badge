@@ -17,7 +17,7 @@ interface BadgeContainerProps {
 
 interface BadgeContainerState {
     alertMessage?: string;
-    badgeValue: string;
+    value: string;
     label: string;
     showAlert?: boolean;
     style: string;
@@ -33,10 +33,10 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
 
         this.state = {
             alertMessage: this.validateProps(),
-            badgeValue: this.getValue(props.mxObject, props.valueAttribute, ""),
             label: this.getValue(props.mxObject, props.labelAttribute, this.props.label),
             showAlert: !!this.validateProps(),
-            style: this.getValue(props.mxObject, props.styleAttribute, props.badgeClass)
+            style: this.getValue(props.mxObject, props.styleAttribute, props.badgeClass),
+            value: this.getValue(props.mxObject, props.valueAttribute, "")
         };
         this.resetSubscriptions(props.mxObject);
         this.handleOnClick = this.handleOnClick.bind(this);
@@ -49,11 +49,11 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
 
         return createElement(Badge, {
             alertMessage: this.state.alertMessage,
-            badgeValue: this.state.badgeValue,
-            clickable: !!this.props.page || !!this.props.microflow,
+            clickable: !!this.props.microflow || !!this.props.page,
             label: this.state.label,
             onClickAction: this.handleOnClick,
-            style: this.state.style
+            style: this.state.style,
+            value: this.state.value
         });
     }
 
@@ -68,9 +68,9 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
 
     private updateValues(mxObject: mendix.lib.MxObject) {
         this.setState({
-            badgeValue: this.getValue(mxObject, this.props.valueAttribute, ""),
             label: this.getValue(mxObject, this.props.labelAttribute, this.props.label),
-            style: this.getValue(mxObject, this.props.styleAttribute, this.props.badgeClass)
+            style: this.getValue(mxObject, this.props.styleAttribute, this.props.badgeClass),
+            value: this.getValue(mxObject, this.props.valueAttribute, "")
         });
     }
 
@@ -118,7 +118,7 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
             errorMessage = `Error in badge configuration: ${errorMessage}`;
         }
 
-        return errorMessage;
+        return errorMessage && `Error in badge configuration: ${errorMessage}`;
     }
 
     private handleOnClick() {
@@ -128,21 +128,16 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
         if (onClickEvent === "callMicroflow" && microflow && mxObject.getGuid()) {
             window.mx.ui.action(microflow, {
                 context,
-                error: (error) => {
-                    this.setState({
-                        alertMessage: `Error while executing microflow: ${microflow}: ${error.message}`,
-                        showAlert: false
-                    });
+                error: (error) => window.mx.ui.error(`Error while executing microflow: ${microflow}: ${error.message}`),
+                params: {
+                    applyto: "selection",
+                    guids: [ mxObject.getGuid() ]
                 }
             });
         } else if (onClickEvent === "showPage" && page && mxObject.getGuid()) {
             window.mx.ui.openForm(page, {
                 context,
-                error: (error) =>
-                    this.setState({
-                        alertMessage: `Error while opening page ${page}: ${error.message}`,
-                        showAlert: false
-                    })
+                error: (error) => window.mx.ui.error(`Error while opening page ${page}: ${error.message}`)
             });
         }
     }
