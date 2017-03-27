@@ -13,7 +13,6 @@ interface BadgeContainerProps {
     microflow: string;
     onClickEvent: OnClickOptions;
     page: string;
-    pageSettings: PageSettings;
 }
 
 interface BadgeContainerState {
@@ -25,7 +24,6 @@ interface BadgeContainerState {
 }
 
 type OnClickOptions = "doNothing" | "showPage" | "callMicroflow";
-type PageSettings = "content" | "popup" | "modal";
 
 class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState> {
     private subscriptionHandles: number[];
@@ -144,11 +142,10 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
                     this.setState({
                         alertMessage: `Error while opening page ${page}: ${error.message}`,
                         showAlert: false
-                    }),
-                location: this.props.pageSettings
+                    })
             });
         }
     }
 }
 
-export { BadgeContainer as default, OnClickOptions, PageSettings };
+export { BadgeContainer as default };
