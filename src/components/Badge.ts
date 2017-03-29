@@ -17,7 +17,7 @@ export interface BadgeProps {
 
 export const Badge = (props: BadgeProps) =>
     createElement("div", {
-            className: classNames("widget-badge-display", { "widget-badge-link": props.clickable }),
+            className: classNames("widget-badge", { "widget-badge-link": props.clickable }),
             onClick: props.onClickAction
         },
         DOM.span({ className: "widget-badge-text" }, props.label),

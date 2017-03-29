@@ -127,7 +127,6 @@ class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState>
         context.setContext(mxObject.getEntity(), mxObject.getGuid());
         if (onClickEvent === "callMicroflow" && microflow && mxObject.getGuid()) {
             window.mx.ui.action(microflow, {
-                context,
                 error: (error) => window.mx.ui.error(`Error while executing microflow: ${microflow}: ${error.message}`),
                 params: {
                     applyto: "selection",
