@@ -1,6 +1,6 @@
 ### Description
 
-Badge is a special distinctive mark or token put on any display
+A badge is a numerical indicator of how many items are associated with a link
 
 ### Features
 
@@ -10,7 +10,7 @@ Badge is a special distinctive mark or token put on any display
 
 ### Dependencies
 
-Mendix 7
+Mendix 7.1
 
 ### Demo project
 
