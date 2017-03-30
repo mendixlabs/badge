@@ -1,5 +1,6 @@
 {
   "name": "badge",
+  "widgetName": "Badge",
   "version": "0.1.0",
   "description": "Badges are numerical indicators of how many items are associated with a link",
   "scripts": {
@@ -17,7 +18,7 @@
   "devDependencies": {
     "@types/big.js": "0.0.31",
     "@types/classnames": "0.0.32",
-    "@types/core-js": "~0.9.36",
+    "@types/core-js": "0.9.36",
     "@types/enzyme": "^2.7.6",
     "@types/faker": "^4.1.0",
     "@types/jasmine": "^2.5.41",
