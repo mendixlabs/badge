@@ -18,7 +18,7 @@ describe("Badge", () => {
         expect(badge).toBeElement(
             DOM.div(
                 {
-                    className: "widget-badge-display",
+                    className: "widget-badge",
                     onClick: jasmine.any(Function) as any
                 },
                 DOM.span({ className: "widget-badge-text" }, badgeProps.label),
