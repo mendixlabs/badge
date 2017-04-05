@@ -1,0 +1,1018 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Flock Of Birds\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'tslint-eslint-rules@undefined',
+1 verbose cli   'typescript@undefined',
+1 verbose cli   'webpack@undefined',
+1 verbose cli   '--color=always' ]
+2 info using npm@2.15.11
+3 info using node@v7.7.3
+4 verbose install initial load of C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\package.json
+5 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\JSONStream\package.json
+6 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\abbrev\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\accepts\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\acorn\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\acorn-dynamic-import\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\after\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\ajv\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\ajv-keywords\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\align-text\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\alphanum-sort\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\amdefine\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\ansi-align\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\ansi-html\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\ansi-regex\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\ansi-styles\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\anymatch\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\archiver\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\archiver-utils\package.json
+23 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\argparse\package.json
+24 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\arr-diff\package.json
+25 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\arr-flatten\package.json
+26 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\array-differ\package.json
+27 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\array-filter\package.json
+28 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\array-find-index\package.json
+29 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\array-flatten\package.json
+30 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\array-map\package.json
+31 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\array-reduce\package.json
+32 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\array-slice\package.json
+33 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\array-uniq\package.json
+34 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\array-unique\package.json
+35 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\arraybuffer.slice\package.json
+36 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\arrify\package.json
+37 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\asap\package.json
+38 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\asn1.js\package.json
+39 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\assert\package.json
+40 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\astw\package.json
+41 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\async\package.json
+42 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\async-each\package.json
+43 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\autoprefixer\package.json
+44 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\babel-code-frame\package.json
+45 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\babel-generator\package.json
+46 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\babel-messages\package.json
+47 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\babel-runtime\package.json
+48 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\babel-template\package.json
+49 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\babel-traverse\package.json
+50 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\babel-types\package.json
+51 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\babylon\package.json
+52 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\backo2\package.json
+53 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\balanced-match\package.json
+54 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\base64-arraybuffer\package.json
+55 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\base64-js\package.json
+56 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\base64id\package.json
+57 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\batch\package.json
+58 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\beeper\package.json
+59 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\better-assert\package.json
+60 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\big.js\package.json
+61 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\binary-extensions\package.json
+62 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\bl\package.json
+63 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\blob\package.json
+64 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\bluebird\package.json
+65 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\bn.js\package.json
+66 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\body-parser\package.json
+67 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\boolbase\package.json
+68 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\bower-config\package.json
+69 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\boxen\package.json
+70 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\brace-expansion\package.json
+71 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\braces\package.json
+72 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\brorand\package.json
+73 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\browser-pack\package.json
+74 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\browser-resolve\package.json
+75 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\browserify\package.json
+76 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\browserify-aes\package.json
+77 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\browserify-cipher\package.json
+78 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\browserify-des\package.json
+79 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\browserify-rsa\package.json
+80 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\browserify-sign\package.json
+81 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\browserify-zlib\package.json
+82 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\browserslist\package.json
+83 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\buffer\package.json
+84 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\buffer-crc32\package.json
+85 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\buffer-shims\package.json
+86 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\buffer-xor\package.json
+87 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\builtin-modules\package.json
+88 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\builtin-status-codes\package.json
+89 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\bytes\package.json
+90 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\cached-path-relative\package.json
+91 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\callsite\package.json
+92 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\camelcase\package.json
+93 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\camelcase-keys\package.json
+94 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\caniuse-api\package.json
+95 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\caniuse-db\package.json
+96 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\capture-stack-trace\package.json
+97 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\center-align\package.json
+98 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\chalk\package.json
+99 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\check-dependencies\package.json
+100 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\cheerio\package.json
+101 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\chokidar\package.json
+102 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\cipher-base\package.json
+103 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\clap\package.json
+104 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\classnames\package.json
+105 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\cli-boxes\package.json
+106 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\cliui\package.json
+107 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\clone\package.json
+108 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\clone-stats\package.json
+109 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\co\package.json
+110 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\coa\package.json
+111 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\code-point-at\package.json
+112 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\coffee-script\package.json
+113 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\color\package.json
+114 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\color-convert\package.json
+115 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\color-name\package.json
+116 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\color-string\package.json
+117 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\colormin\package.json
+118 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\colors\package.json
+119 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\combine-lists\package.json
+120 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\combine-source-map\package.json
+121 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\component-bind\package.json
+122 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\component-emitter\package.json
+123 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\component-inherit\package.json
+124 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\compress-commons\package.json
+125 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\compressible\package.json
+126 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\compression\package.json
+127 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\concat-map\package.json
+128 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\concat-stream\package.json
+129 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\configstore\package.json
+130 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\connect\package.json
+131 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\connect-history-api-fallback\package.json
+132 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\console-browserify\package.json
+133 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\constants-browserify\package.json
+134 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\content-disposition\package.json
+135 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\content-type\package.json
+136 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\convert-source-map\package.json
+137 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\cookie\package.json
+138 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\cookie-signature\package.json
+139 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\copy-webpack-plugin\package.json
+140 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\core-js\package.json
+141 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\core-util-is\package.json
+142 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\crc\package.json
+143 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\crc32-stream\package.json
+144 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\create-ecdh\package.json
+145 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\create-error-class\package.json
+146 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\create-hash\package.json
+147 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\create-hmac\package.json
+148 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\cross-spawn-async\package.json
+149 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\crypto-browserify\package.json
+150 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\crypto-random-string\package.json
+151 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\css-color-names\package.json
+152 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\css-loader\package.json
+153 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\css-select\package.json
+154 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\css-selector-tokenizer\package.json
+155 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\css-what\package.json
+156 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\cssesc\package.json
+157 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\cssnano\package.json
+158 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\csso\package.json
+159 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\currently-unhandled\package.json
+160 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\custom-event\package.json
+161 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\date-now\package.json
+162 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\dateformat\package.json
+163 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\debug\package.json
+164 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\decamelize\package.json
+165 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\deep-extend\package.json
+166 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\deep-is\package.json
+167 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\define-properties\package.json
+168 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\defined\package.json
+169 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\depd\package.json
+170 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\deps-sort\package.json
+171 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\des.js\package.json
+172 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\destroy\package.json
+173 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\detect-file\package.json
+174 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\detect-indent\package.json
+175 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\detective\package.json
+176 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\di\package.json
+177 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\diff\package.json
+178 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\diffie-hellman\package.json
+179 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\doctrine\package.json
+180 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\dom-serialize\package.json
+181 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\dom-serializer\package.json
+182 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\domain-browser\package.json
+183 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\domelementtype\package.json
+184 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\domhandler\package.json
+185 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\domutils\package.json
+186 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\dot-prop\package.json
+187 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\duplexer2\package.json
+188 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\duplexer3\package.json
+189 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\ee-first\package.json
+190 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\electron-to-chromium\package.json
+191 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\elliptic\package.json
+192 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\emojis-list\package.json
+193 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\encodeurl\package.json
+194 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\encoding\package.json
+195 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\end-of-stream\package.json
+196 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\engine.io\package.json
+197 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\engine.io-client\package.json
+198 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\engine.io-parser\package.json
+199 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\enhanced-resolve\package.json
+200 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\ent\package.json
+201 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\entities\package.json
+202 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\enzyme\package.json
+203 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\errno\package.json
+204 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\error-ex\package.json
+205 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\es-abstract\package.json
+206 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\es-to-primitive\package.json
+207 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\es6-promise\package.json
+208 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\escape-html\package.json
+209 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\escape-string-regexp\package.json
+210 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\escodegen\package.json
+211 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\esprima\package.json
+212 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\estraverse\package.json
+213 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\esutils\package.json
+214 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\etag\package.json
+215 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\eventemitter2\package.json
+216 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\eventemitter3\package.json
+217 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\events\package.json
+218 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\eventsource\package.json
+219 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\evp_bytestokey\package.json
+220 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\execa\package.json
+221 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\exit\package.json
+222 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\expand-braces\package.json
+223 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\expand-brackets\package.json
+224 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\expand-range\package.json
+225 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\expand-tilde\package.json
+226 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\express\package.json
+227 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\extend\package.json
+228 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\extglob\package.json
+229 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\extract-text-webpack-plugin\package.json
+230 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\faker\package.json
+231 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\fancy-log\package.json
+232 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\fast-levenshtein\package.json
+233 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\fastparse\package.json
+234 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\faye-websocket\package.json
+235 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\fbjs\package.json
+236 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\file-sync-cmp\package.json
+237 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\filename-regex\package.json
+238 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\fill-range\package.json
+239 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\finalhandler\package.json
+240 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\find-up\package.json
+241 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\findup-sync\package.json
+242 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\flatten\package.json
+243 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\for-in\package.json
+244 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\for-own\package.json
+245 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\foreach\package.json
+246 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\forwarded\package.json
+247 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\fresh\package.json
+248 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\fs-access\package.json
+249 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\fs-exists-sync\package.json
+250 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\fs-extra\package.json
+251 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\fs.realpath\package.json
+252 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\function-bind\package.json
+253 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\function.prototype.name\package.json
+254 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\gaze\package.json
+255 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\get-caller-file\package.json
+256 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\get-stdin\package.json
+257 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\get-stream\package.json
+258 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\getobject\package.json
+259 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\glob\package.json
+260 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\glob-base\package.json
+261 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\glob-parent\package.json
+262 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\global-modules\package.json
+263 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\global-prefix\package.json
+264 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\globals\package.json
+265 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\globule\package.json
+266 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\glogg\package.json
+267 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\got\package.json
+268 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\graceful-fs\package.json
+269 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\grunt\package.json
+270 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\grunt-check-dependencies\package.json
+271 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\grunt-contrib-clean\package.json
+272 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\grunt-contrib-compress\package.json
+273 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\grunt-contrib-copy\package.json
+274 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\grunt-contrib-watch\package.json
+275 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\grunt-known-options\package.json
+276 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\grunt-legacy-log\package.json
+277 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\grunt-legacy-log-utils\package.json
+278 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\grunt-legacy-util\package.json
+279 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\grunt-newer\package.json
+280 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\grunt-webpack\package.json
+281 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\gulp-util\package.json
+282 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\gulplog\package.json
+283 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\handle-thing\package.json
+284 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\handlebars\package.json
+285 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\has\package.json
+286 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\has-ansi\package.json
+287 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\has-binary\package.json
+288 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\has-cors\package.json
+289 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\has-flag\package.json
+290 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\has-gulplog\package.json
+291 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\hash.js\package.json
+292 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\hmac-drbg\package.json
+293 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\homedir-polyfill\package.json
+294 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\hooker\package.json
+295 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\hosted-git-info\package.json
+296 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\hpack.js\package.json
+297 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\html-comment-regex\package.json
+298 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\html-entities\package.json
+299 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\htmlescape\package.json
+300 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\htmlparser2\package.json
+301 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\http-deceiver\package.json
+302 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\http-errors\package.json
+303 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\http-proxy\package.json
+304 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\http-proxy-middleware\package.json
+305 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\https-browserify\package.json
+306 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\iconv-lite\package.json
+307 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\icss-replace-symbols\package.json
+308 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\ieee754\package.json
+309 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\imurmurhash\package.json
+310 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\indent-string\package.json
+311 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\indexes-of\package.json
+312 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\indexof\package.json
+313 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\inflight\package.json
+314 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\inherits\package.json
+315 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\ini\package.json
+316 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\inline-source-map\package.json
+317 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\insert-module-globals\package.json
+318 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\interpret\package.json
+319 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\invariant\package.json
+320 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\invert-kv\package.json
+321 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\ipaddr.js\package.json
+322 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-absolute-url\package.json
+323 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-arrayish\package.json
+324 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-binary-path\package.json
+325 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-buffer\package.json
+326 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-builtin-module\package.json
+327 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-callable\package.json
+328 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-date-object\package.json
+329 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-dotfile\package.json
+330 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-equal-shallow\package.json
+331 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-extendable\package.json
+332 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-extglob\package.json
+333 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-finite\package.json
+334 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-fullwidth-code-point\package.json
+335 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-glob\package.json
+336 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-npm\package.json
+337 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-number\package.json
+338 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-obj\package.json
+339 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-plain-obj\package.json
+340 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-posix-bracket\package.json
+341 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-primitive\package.json
+342 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-redirect\package.json
+343 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-regex\package.json
+344 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-retry-allowed\package.json
+345 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-stream\package.json
+346 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-subset\package.json
+347 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-svg\package.json
+348 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-symbol\package.json
+349 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-utf8\package.json
+350 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\is-windows\package.json
+351 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\isarray\package.json
+352 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\isbinaryfile\package.json
+353 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\isexe\package.json
+354 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\isobject\package.json
+355 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\isomorphic-fetch\package.json
+356 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\istanbul\package.json
+357 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\istanbul-instrumenter-loader\package.json
+358 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\istanbul-lib-coverage\package.json
+359 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\istanbul-lib-instrument\package.json
+360 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\jasmine\package.json
+361 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\jasmine-core\package.json
+362 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\js-base64\package.json
+363 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\js-tokens\package.json
+364 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\js-yaml\package.json
+365 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\jsesc\package.json
+366 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\json-loader\package.json
+367 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\json-stable-stringify\package.json
+368 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\json3\package.json
+369 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\json5\package.json
+370 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\jsonfile\package.json
+371 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\jsonify\package.json
+372 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\jsonparse\package.json
+373 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\karma\package.json
+374 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\karma-chrome-launcher\package.json
+375 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\karma-coverage\package.json
+376 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\karma-jasmine\package.json
+377 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\karma-jasmine-html-reporter\package.json
+378 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\karma-remap-istanbul\package.json
+379 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\karma-sourcemap-loader\package.json
+380 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\karma-typescript\package.json
+381 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\karma-webpack\package.json
+382 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\kind-of\package.json
+383 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\klaw\package.json
+384 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\labeled-stream-splicer\package.json
+385 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\latest-version\package.json
+386 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lazy-cache\package.json
+387 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lazy-req\package.json
+388 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lazystream\package.json
+389 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lcid\package.json
+390 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\levn\package.json
+391 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lexical-scope\package.json
+392 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\livereload-js\package.json
+393 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\load-json-file\package.json
+394 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\loader-runner\package.json
+395 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\loader-utils\package.json
+396 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash\package.json
+397 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash._basecopy\package.json
+398 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash._basetostring\package.json
+399 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash._basevalues\package.json
+400 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash._getnative\package.json
+401 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash._isiterateecall\package.json
+402 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash._reescape\package.json
+403 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash._reevaluate\package.json
+404 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash._reinterpolate\package.json
+405 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash._root\package.json
+406 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.assignin\package.json
+407 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.bind\package.json
+408 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.camelcase\package.json
+409 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.clonedeep\package.json
+410 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.debounce\package.json
+411 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.defaults\package.json
+412 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.escape\package.json
+413 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.filter\package.json
+414 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.flatten\package.json
+415 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.foreach\package.json
+416 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.isarguments\package.json
+417 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.isarray\package.json
+418 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.isplainobject\package.json
+419 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.isstring\package.json
+420 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.keys\package.json
+421 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.map\package.json
+422 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.memoize\package.json
+423 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.merge\package.json
+424 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.pick\package.json
+425 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.reduce\package.json
+426 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.reject\package.json
+427 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.restparam\package.json
+428 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.some\package.json
+429 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.template\package.json
+430 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.templatesettings\package.json
+431 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.union\package.json
+432 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lodash.uniq\package.json
+433 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\log4js\package.json
+434 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\longest\package.json
+435 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\loose-envify\package.json
+436 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\loud-rejection\package.json
+437 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lowercase-keys\package.json
+438 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\lru-cache\package.json
+439 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\macaddress\package.json
+440 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\map-obj\package.json
+441 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\math-expression-evaluator\package.json
+442 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\media-typer\package.json
+443 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\memory-fs\package.json
+444 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\mendix-client\package.json
+445 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\meow\package.json
+446 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\merge-descriptors\package.json
+447 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\methods\package.json
+448 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\micromatch\package.json
+449 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\miller-rabin\package.json
+450 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\mime\package.json
+451 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\mime-db\package.json
+452 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\mime-types\package.json
+453 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\minimalistic-assert\package.json
+454 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\minimalistic-crypto-utils\package.json
+455 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\minimatch\package.json
+456 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\minimist\package.json
+457 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\mkdirp\package.json
+458 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\module-deps\package.json
+459 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\mout\package.json
+460 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\ms\package.json
+461 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\multipipe\package.json
+462 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\negotiator\package.json
+463 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\node-dir\package.json
+464 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\node-fetch\package.json
+465 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\node-libs-browser\package.json
+466 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\nopt\package.json
+467 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\normalize-package-data\package.json
+468 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\normalize-path\package.json
+469 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\normalize-range\package.json
+470 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\normalize-url\package.json
+471 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\npm-run-path\package.json
+472 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\nth-check\package.json
+473 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\null-check\package.json
+474 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\num2fraction\package.json
+475 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\number-is-nan\package.json
+476 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\object-assign\package.json
+477 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\object-component\package.json
+478 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\object-is\package.json
+479 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\object-keys\package.json
+480 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\object.assign\package.json
+481 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\object.entries\package.json
+482 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\object.omit\package.json
+483 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\object.values\package.json
+484 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\obuf\package.json
+485 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\on-finished\package.json
+486 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\on-headers\package.json
+487 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\once\package.json
+488 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\opn\package.json
+489 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\optimist\package.json
+490 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\optionator\package.json
+491 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\options\package.json
+492 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\original\package.json
+493 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\os-browserify\package.json
+494 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\os-homedir\package.json
+495 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\os-locale\package.json
+496 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\os-tmpdir\package.json
+497 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\osenv\package.json
+498 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\package-json\package.json
+499 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\pako\package.json
+500 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\parents\package.json
+501 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\parse-asn1\package.json
+502 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\parse-glob\package.json
+503 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\parse-json\package.json
+504 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\parse-passwd\package.json
+505 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\parsejson\package.json
+506 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\parseqs\package.json
+507 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\parseuri\package.json
+508 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\parseurl\package.json
+509 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\path-browserify\package.json
+510 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\path-exists\package.json
+511 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\path-is-absolute\package.json
+512 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\path-key\package.json
+513 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\path-platform\package.json
+514 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\path-to-regexp\package.json
+515 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\path-type\package.json
+516 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\pbkdf2\package.json
+517 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\pify\package.json
+518 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\pinkie\package.json
+519 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\pinkie-promise\package.json
+520 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\portfinder\package.json
+521 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss\package.json
+522 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-calc\package.json
+523 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-colormin\package.json
+524 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-convert-values\package.json
+525 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-discard-comments\package.json
+526 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-discard-duplicates\package.json
+527 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-discard-empty\package.json
+528 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-discard-overridden\package.json
+529 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-discard-unused\package.json
+530 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-filter-plugins\package.json
+531 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-merge-idents\package.json
+532 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-merge-longhand\package.json
+533 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-merge-rules\package.json
+534 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-message-helpers\package.json
+535 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-minify-font-values\package.json
+536 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-minify-gradients\package.json
+537 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-minify-params\package.json
+538 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-minify-selectors\package.json
+539 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-modules-extract-imports\package.json
+540 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-modules-local-by-default\package.json
+541 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-modules-scope\package.json
+542 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-modules-values\package.json
+543 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-normalize-charset\package.json
+544 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-normalize-url\package.json
+545 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-ordered-values\package.json
+546 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-reduce-idents\package.json
+547 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-reduce-initial\package.json
+548 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-reduce-transforms\package.json
+549 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-selector-parser\package.json
+550 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-svgo\package.json
+551 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-unique-selectors\package.json
+552 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-value-parser\package.json
+553 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\postcss-zindex\package.json
+554 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\prelude-ls\package.json
+555 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\prepend-http\package.json
+556 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\preserve\package.json
+557 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\pretty-bytes\package.json
+558 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\process\package.json
+559 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\process-nextick-args\package.json
+560 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\promise\package.json
+561 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\proxy-addr\package.json
+562 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\prr\package.json
+563 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\pseudomap\package.json
+564 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\public-encrypt\package.json
+565 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\punycode\package.json
+566 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\q\package.json
+567 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\qjobs\package.json
+568 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\qs\package.json
+569 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\query-string\package.json
+570 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\querystring\package.json
+571 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\querystring-es3\package.json
+572 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\querystringify\package.json
+573 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\randomatic\package.json
+574 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\randombytes\package.json
+575 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\range-parser\package.json
+576 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\raw-body\package.json
+577 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\rc\package.json
+578 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\react\package.json
+579 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\react-addons-test-utils\package.json
+580 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\react-dom\package.json
+581 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\read-only-stream\package.json
+582 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\read-pkg\package.json
+583 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\read-pkg-up\package.json
+584 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\readable-stream\package.json
+585 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\readdirp\package.json
+586 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\redent\package.json
+587 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\reduce-css-calc\package.json
+588 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\reduce-function-call\package.json
+589 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\regenerate\package.json
+590 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\regenerator-runtime\package.json
+591 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\regex-cache\package.json
+592 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\regexpu-core\package.json
+593 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\registry-auth-token\package.json
+594 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\registry-url\package.json
+595 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\regjsgen\package.json
+596 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\regjsparser\package.json
+597 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\remap-istanbul\package.json
+598 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\repeat-element\package.json
+599 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\repeat-string\package.json
+600 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\repeating\package.json
+601 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\replace-ext\package.json
+602 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\require-directory\package.json
+603 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\require-main-filename\package.json
+604 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\requires-port\package.json
+605 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\resolve\package.json
+606 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\resolve-dir\package.json
+607 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\right-align\package.json
+608 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\rimraf\package.json
+609 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\ripemd160\package.json
+610 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\safe-buffer\package.json
+611 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\sax\package.json
+612 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\select-hose\package.json
+613 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\semver\package.json
+614 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\semver-diff\package.json
+615 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\send\package.json
+616 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\serve-index\package.json
+617 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\serve-static\package.json
+618 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\set-blocking\package.json
+619 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\set-immediate-shim\package.json
+620 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\setimmediate\package.json
+621 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\setprototypeof\package.json
+622 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\sha.js\package.json
+623 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\shasum\package.json
+624 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\shell-quote\package.json
+625 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\signal-exit\package.json
+626 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\slide\package.json
+627 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\socket.io\package.json
+628 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\socket.io-adapter\package.json
+629 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\socket.io-client\package.json
+630 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\socket.io-parser\package.json
+631 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\sockjs\package.json
+632 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\sockjs-client\package.json
+633 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\sort-keys\package.json
+634 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\source-list-map\package.json
+635 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\source-map\package.json
+636 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\source-map-loader\package.json
+637 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\sparkles\package.json
+638 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\spdx-correct\package.json
+639 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\spdx-expression-parse\package.json
+640 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\spdx-license-ids\package.json
+641 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\spdy\package.json
+642 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\spdy-transport\package.json
+643 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\sprintf-js\package.json
+644 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\statuses\package.json
+645 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\stream-browserify\package.json
+646 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\stream-buffers\package.json
+647 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\stream-combiner2\package.json
+648 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\stream-http\package.json
+649 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\stream-splicer\package.json
+650 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\strict-uri-encode\package.json
+651 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\string-width\package.json
+652 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\string_decoder\package.json
+653 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\strip-ansi\package.json
+654 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\strip-bom\package.json
+655 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\strip-eof\package.json
+656 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\strip-indent\package.json
+657 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\strip-json-comments\package.json
+658 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\style-loader\package.json
+659 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\subarg\package.json
+660 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\supports-color\package.json
+661 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\svgo\package.json
+662 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\syntax-error\package.json
+663 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\tapable\package.json
+664 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\tar-stream\package.json
+665 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\term-size\package.json
+666 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\through\package.json
+667 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\through2\package.json
+668 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\time-stamp\package.json
+669 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\timed-out\package.json
+670 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\timers-browserify\package.json
+671 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\tiny-lr\package.json
+672 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\tmp\package.json
+673 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\to-array\package.json
+674 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\to-arraybuffer\package.json
+675 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\to-fast-properties\package.json
+676 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\trim-newlines\package.json
+677 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\trim-right\package.json
+678 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\ts-loader\package.json
+679 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\tslint\package.json
+680 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\tslint-eslint-rules\package.json
+681 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\tsutils\package.json
+682 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\tty-browserify\package.json
+683 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\type-check\package.json
+684 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\type-is\package.json
+685 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\typedarray\package.json
+686 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\typescript\package.json
+687 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\ua-parser-js\package.json
+688 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\uglify-js\package.json
+689 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\uglify-to-browserify\package.json
+690 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\ultron\package.json
+691 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\umd\package.json
+692 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\underscore.string\package.json
+693 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\uniq\package.json
+694 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\uniqid\package.json
+695 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\uniqs\package.json
+696 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\unique-string\package.json
+697 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\unpipe\package.json
+698 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\untildify\package.json
+699 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\unzip-response\package.json
+700 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\update-notifier\package.json
+701 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\url\package.json
+702 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\url-parse\package.json
+703 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\url-parse-lax\package.json
+704 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\useragent\package.json
+705 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\util\package.json
+706 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\util-deprecate\package.json
+707 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\utils-merge\package.json
+708 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\uuid\package.json
+709 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\validate-npm-package-license\package.json
+710 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\vary\package.json
+711 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\vendors\package.json
+712 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\vinyl\package.json
+713 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\vm-browserify\package.json
+714 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\void-elements\package.json
+715 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\walkdir\package.json
+716 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\watchpack\package.json
+717 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\wbuf\package.json
+718 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\webpack\package.json
+719 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\webpack-dev-middleware\package.json
+720 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\webpack-dev-server\package.json
+721 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\webpack-sources\package.json
+722 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\websocket-driver\package.json
+723 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\websocket-extensions\package.json
+724 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\whatwg-fetch\package.json
+725 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\whet.extend\package.json
+726 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\which\package.json
+727 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\which-module\package.json
+728 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\widest-line\package.json
+729 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\window-size\package.json
+730 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\wordwrap\package.json
+731 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\wrap-ansi\package.json
+732 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\wrappy\package.json
+733 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\write-file-atomic\package.json
+734 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\ws\package.json
+735 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\wtf-8\package.json
+736 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\xdg-basedir\package.json
+737 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\xmlhttprequest-ssl\package.json
+738 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\xtend\package.json
+739 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\y18n\package.json
+740 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\yallist\package.json
+741 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\yargs\package.json
+742 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\yargs-parser\package.json
+743 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\yeast\package.json
+744 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\zip-stream\package.json
+745 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\big.js\package.json
+746 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\bluebird\package.json
+747 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\cheerio\package.json
+748 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\classnames\package.json
+749 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\core-js\package.json
+750 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\dojo\package.json
+751 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\enzyme\package.json
+752 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\express\package.json
+753 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\express-serve-static-core\package.json
+754 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\faker\package.json
+755 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\googlemaps\package.json
+756 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\jasmine\package.json
+757 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\karma\package.json
+758 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\log4js\package.json
+759 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\mime\package.json
+760 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\node\package.json
+761 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\react\package.json
+762 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\react-bootstrap\package.json
+763 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\react-dom\package.json
+764 verbose installManyTop reading scoped package data from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\node_modules\@types\serve-static\package.json
+765 info package.json arr-flatten@1.0.1 license should be a valid SPDX license expression
+766 info package.json array-slice@0.2.3 license should be a valid SPDX license expression
+767 info package.json array-unique@0.2.1 license should be a valid SPDX license expression
+768 info package.json arraybuffer.slice@0.0.6 No license field.
+769 info package.json assert@1.3.0 assert is also the name of a node core module.
+770 info package.json base64-arraybuffer@0.1.5 No license field.
+771 info package.json batch@0.5.3 No license field.
+772 info package.json better-assert@1.0.2 No license field.
+773 info package.json blob@0.0.4 No license field.
+774 info package.json buffer@4.9.1 buffer is also the name of a node core module.
+775 info package.json callsite@1.0.0 No repository field.
+776 info package.json callsite@1.0.0 No license field.
+777 info package.json coa@1.0.1 No license field.
+778 info package.json component-bind@1.0.0 No license field.
+779 info package.json component-emitter@1.1.2 No license field.
+780 info package.json component-inherit@0.0.3 No license field.
+781 info package.json console-browserify@1.1.0 No license field.
+782 info package.json css-select@1.2.0 license should be a valid SPDX license expression
+783 info package.json css-what@2.1.0 license should be a valid SPDX license expression
+784 info package.json cssesc@0.1.0 No license field.
+785 info package.json date-now@0.1.4 No license field.
+786 info package.json deep-is@0.1.3 license should be a valid SPDX license expression
+787 info package.json doctrine@0.7.2 No license field.
+788 info package.json domelementtype@1.3.0 No license field.
+789 info package.json domhandler@2.3.0 No license field.
+790 info package.json domutils@1.5.1 No license field.
+791 info package.json duplexer2@0.0.2 license should be a valid SPDX license expression
+792 info package.json enhanced-resolve@3.1.0 No license field.
+793 info package.json entities@1.1.1 license should be a valid SPDX license expression
+794 info package.json estraverse@1.9.3 No license field.
+795 info package.json esutils@2.0.2 No license field.
+796 info package.json events@1.1.1 events is also the name of a node core module.
+797 info package.json eventsource@0.1.6 No license field.
+798 info package.json exit@0.1.2 No license field.
+799 info package.json filename-regex@2.0.0 license should be a valid SPDX license expression
+800 info package.json findup-sync@0.3.0 No license field.
+801 info package.json function-bind@1.1.0 No license field.
+802 info package.json getobject@0.1.0 No license field.
+803 info package.json glob-base@0.3.0 license should be a valid SPDX license expression
+804 info package.json has@1.0.1 No license field.
+805 info package.json has-binary@0.1.7 No repository field.
+806 info package.json hooker@0.2.3 No license field.
+807 info package.json indexof@0.0.1 No repository field.
+808 info package.json indexof@0.0.1 No license field.
+809 info package.json is-primitive@2.0.0 license should be a valid SPDX license expression
+810 info package.json js-base64@2.1.9 license should be a valid SPDX license expression
+811 info package.json jsesc@0.5.0 No license field.
+812 info package.json json3@3.3.2 No license field.
+813 info package.json jsonify@0.0.0 license should be a valid SPDX license expression
+814 info package.json longest@1.0.1 license should be a valid SPDX license expression
+815 info package.json lru-cache@2.2.4 license should be a valid SPDX license expression
+816 info package.json mendix-client@0.1.0 No repository field.
+817 info package.json mendix-client@0.1.0 No license field.
+818 info package.json mime@1.3.4 No license field.
+819 info package.json ms@0.7.1 No license field.
+820 info package.json nth-check@1.0.1 license should be a valid SPDX license expression
+821 info package.json object-component@0.0.3 No repository field.
+822 info package.json object-component@0.0.3 No license field.
+823 info package.json obuf@1.1.1 No description
+824 info package.json optimist@0.6.1 license should be a valid SPDX license expression
+825 info package.json options@0.0.6 No license field.
+826 info package.json prelude-ls@1.1.2 No license field.
+827 info package.json preserve@0.2.0 license should be a valid SPDX license expression
+828 info package.json process@0.11.9 process is also the name of a node core module.
+829 info package.json punycode@1.4.1 punycode is also the name of a node core module.
+830 info package.json querystring@0.2.0 querystring is also the name of a node core module.
+831 info package.json querystring@0.2.0 No license field.
+832 info package.json querystring-es3@0.2.1 No license field.
+833 info package.json regjsparser@0.1.5 license should be a valid SPDX license expression
+834 info package.json repeat-element@1.1.2 license should be a valid SPDX license expression
+835 info package.json replace-ext@0.0.1 No license field.
+836 info package.json source-map-loader@0.2.1 No license field.
+837 info package.json string_decoder@0.10.31 string_decoder is also the name of a node core module.
+838 info package.json timers-browserify@1.4.2 No license field.
+839 info package.json to-array@0.1.4 No license field.
+840 info package.json url@0.11.0 url is also the name of a node core module.
+841 info package.json useragent@2.1.12 license should be a valid SPDX license expression
+842 info package.json util@0.10.3 util is also the name of a node core module.
+843 info package.json utils-merge@1.0.0 No license field.
+844 info package.json window-size@0.1.0 No license field.
+845 info package.json xmlhttprequest-ssl@1.5.3 No license field.
+846 verbose readDependencies loading dependencies from C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge\package.json
+847 silly cache add args [ 'tslint-eslint-rules@undefined', null ]
+848 verbose cache add spec tslint-eslint-rules@undefined
+849 silly cache add args [ 'typescript@undefined', null ]
+850 verbose cache add spec typescript@undefined
+851 silly cache add args [ 'webpack@undefined', null ]
+852 verbose cache add spec webpack@undefined
+853 silly cache add parsed spec Result {
+853 silly cache add   raw: 'tslint-eslint-rules@undefined',
+853 silly cache add   scope: null,
+853 silly cache add   name: 'tslint-eslint-rules',
+853 silly cache add   rawSpec: 'undefined',
+853 silly cache add   spec: 'undefined',
+853 silly cache add   type: 'tag' }
+854 silly addNamed tslint-eslint-rules@undefined
+855 verbose addNamed "undefined" is being treated as a dist-tag for tslint-eslint-rules
+856 info addNameTag [ 'tslint-eslint-rules', 'undefined' ]
+857 silly mapToRegistry name tslint-eslint-rules
+858 silly mapToRegistry using default registry
+859 silly mapToRegistry registry https://registry.npmjs.org/
+860 silly mapToRegistry data Result {
+860 silly mapToRegistry   raw: 'tslint-eslint-rules',
+860 silly mapToRegistry   scope: null,
+860 silly mapToRegistry   name: 'tslint-eslint-rules',
+860 silly mapToRegistry   rawSpec: '',
+860 silly mapToRegistry   spec: 'latest',
+860 silly mapToRegistry   type: 'tag' }
+861 silly mapToRegistry uri https://registry.npmjs.org/tslint-eslint-rules
+862 verbose addNameTag registry:https://registry.npmjs.org/tslint-eslint-rules not in flight; fetching
+863 silly cache add parsed spec Result {
+863 silly cache add   raw: 'typescript@undefined',
+863 silly cache add   scope: null,
+863 silly cache add   name: 'typescript',
+863 silly cache add   rawSpec: 'undefined',
+863 silly cache add   spec: 'undefined',
+863 silly cache add   type: 'tag' }
+864 silly addNamed typescript@undefined
+865 verbose addNamed "undefined" is being treated as a dist-tag for typescript
+866 info addNameTag [ 'typescript', 'undefined' ]
+867 silly mapToRegistry name typescript
+868 silly mapToRegistry using default registry
+869 silly mapToRegistry registry https://registry.npmjs.org/
+870 silly mapToRegistry data Result {
+870 silly mapToRegistry   raw: 'typescript',
+870 silly mapToRegistry   scope: null,
+870 silly mapToRegistry   name: 'typescript',
+870 silly mapToRegistry   rawSpec: '',
+870 silly mapToRegistry   spec: 'latest',
+870 silly mapToRegistry   type: 'tag' }
+871 silly mapToRegistry uri https://registry.npmjs.org/typescript
+872 verbose addNameTag registry:https://registry.npmjs.org/typescript not in flight; fetching
+873 silly cache add parsed spec Result {
+873 silly cache add   raw: 'webpack@undefined',
+873 silly cache add   scope: null,
+873 silly cache add   name: 'webpack',
+873 silly cache add   rawSpec: 'undefined',
+873 silly cache add   spec: 'undefined',
+873 silly cache add   type: 'tag' }
+874 silly addNamed webpack@undefined
+875 verbose addNamed "undefined" is being treated as a dist-tag for webpack
+876 info addNameTag [ 'webpack', 'undefined' ]
+877 silly mapToRegistry name webpack
+878 silly mapToRegistry using default registry
+879 silly mapToRegistry registry https://registry.npmjs.org/
+880 silly mapToRegistry data Result {
+880 silly mapToRegistry   raw: 'webpack',
+880 silly mapToRegistry   scope: null,
+880 silly mapToRegistry   name: 'webpack',
+880 silly mapToRegistry   rawSpec: '',
+880 silly mapToRegistry   spec: 'latest',
+880 silly mapToRegistry   type: 'tag' }
+881 silly mapToRegistry uri https://registry.npmjs.org/webpack
+882 verbose addNameTag registry:https://registry.npmjs.org/webpack not in flight; fetching
+883 verbose request uri https://registry.npmjs.org/tslint-eslint-rules
+884 verbose request no auth needed
+885 info attempt registry request try #1 at 12:16:53 PM
+886 verbose request id f149bed107ab0b9c
+887 verbose etag W/"58e4712e-17a1a"
+888 verbose lastModified Wed, 05 Apr 2017 04:23:10 GMT
+889 http request GET https://registry.npmjs.org/tslint-eslint-rules
+890 verbose request uri https://registry.npmjs.org/typescript
+891 verbose request no auth needed
+892 info attempt registry request try #1 at 12:16:53 PM
+893 verbose etag W/"58e48b41-16ccef"
+894 verbose lastModified Wed, 05 Apr 2017 06:14:25 GMT
+895 http request GET https://registry.npmjs.org/typescript
+896 verbose request uri https://registry.npmjs.org/webpack
+897 verbose request no auth needed
+898 info attempt registry request try #1 at 12:16:53 PM
+899 verbose etag W/"58e44b01-e8ed8"
+900 verbose lastModified Wed, 05 Apr 2017 01:40:17 GMT
+901 http request GET https://registry.npmjs.org/webpack
+902 info retry will retry, error on last attempt: Error: read ECONNRESET
+903 info retry will retry, error on last attempt: Error: read ECONNRESET
+904 info retry will retry, error on last attempt: Error: read ECONNRESET
+905 info attempt registry request try #2 at 12:17:04 PM
+906 verbose etag W/"58e48b41-16ccef"
+907 verbose lastModified Wed, 05 Apr 2017 06:14:25 GMT
+908 http request GET https://registry.npmjs.org/typescript
+909 info attempt registry request try #2 at 12:17:04 PM
+910 verbose etag W/"58e4712e-17a1a"
+911 verbose lastModified Wed, 05 Apr 2017 04:23:10 GMT
+912 http request GET https://registry.npmjs.org/tslint-eslint-rules
+913 info attempt registry request try #2 at 12:17:04 PM
+914 verbose etag W/"58e44b01-e8ed8"
+915 verbose lastModified Wed, 05 Apr 2017 01:40:17 GMT
+916 http request GET https://registry.npmjs.org/webpack
+917 info retry will retry, error on last attempt: Error: read ECONNRESET
+918 info retry will retry, error on last attempt: Error: read ECONNRESET
+919 info retry will retry, error on last attempt: Error: read ECONNRESET
+920 info attempt registry request try #3 at 12:18:06 PM
+921 verbose etag W/"58e48b41-16ccef"
+922 verbose lastModified Wed, 05 Apr 2017 06:14:25 GMT
+923 http request GET https://registry.npmjs.org/typescript
+924 info attempt registry request try #3 at 12:18:06 PM
+925 verbose etag W/"58e4712e-17a1a"
+926 verbose lastModified Wed, 05 Apr 2017 04:23:10 GMT
+927 http request GET https://registry.npmjs.org/tslint-eslint-rules
+928 info attempt registry request try #3 at 12:18:06 PM
+929 verbose etag W/"58e44b01-e8ed8"
+930 verbose lastModified Wed, 05 Apr 2017 01:40:17 GMT
+931 http request GET https://registry.npmjs.org/webpack
+932 silly get cb [ 304, undefined ]
+933 verbose etag https://registry.npmjs.org/tslint-eslint-rules from cache
+934 verbose get saving tslint-eslint-rules to C:\Users\Flock Of Birds\AppData\Roaming\npm-cache\registry.npmjs.org\tslint-eslint-rules\.cache.json
+935 verbose correctMkdir C:\Users\Flock Of Birds\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+936 silly get cb [ 304, undefined ]
+937 verbose etag https://registry.npmjs.org/typescript from cache
+938 verbose get saving typescript to C:\Users\Flock Of Birds\AppData\Roaming\npm-cache\registry.npmjs.org\typescript\.cache.json
+939 verbose correctMkdir C:\Users\Flock Of Birds\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+940 silly get cb [ 304, undefined ]
+941 verbose etag https://registry.npmjs.org/webpack from cache
+942 verbose get saving webpack to C:\Users\Flock Of Birds\AppData\Roaming\npm-cache\registry.npmjs.org\webpack\.cache.json
+943 verbose correctMkdir C:\Users\Flock Of Birds\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+944 silly addNameTag next cb for typescript with tag undefined
+945 silly addNameTag next cb for webpack with tag undefined
+946 silly addNameTag next cb for tslint-eslint-rules with tag undefined
+947 verbose stack Error: No compatible version found: typescript@'undefined'
+947 verbose stack Valid install targets:
+947 verbose stack ["0.8.0","0.8.1","0.8.1-1","0.8.2","0.8.3","0.9.0","0.9.0-1","0.9.1","0.9.1-1","0.9.5","0.9.7","1.0.0","1.0.1","1.1.0-1","1.3.0","1.4.1","1.5.0-alpha","1.5.0-beta","1.5.3","1.6.0-dev.20150722.1","1.6.0-dev.20150723","1.6.0-dev.20150724","1.6.0-dev.20150725","1.6.0-dev.20150726","1.6.0-dev.20150727","1.6.0-dev.20150728","1.6.0-dev.20150729","1.6.0-dev.20150730","1.6.0-dev.20150731","1.6.0-dev.20150801","1.6.0-dev.20150802","1.6.0-dev.20150803","1.6.0-dev.20150804","1.6.0-dev.20150805","1.6.0-dev.20150806","1.6.0-dev.20150807","1.6.0-dev.20150808","1.6.0-dev.20150809","1.6.0-dev.20150810","1.6.0-dev.20150811","1.6.0-dev.20150812","1.6.0-dev.20150813","1.6.0-dev.20150814","1.6.0-dev.20150815","1.6.0-dev.20150816","1.6.0-dev.20150817","1.6.0-dev.20150818","1.6.0-dev.20150819","1.6.0-dev.20150820","1.6.0-dev.20150821","1.6.0-dev.20150822","1.6.0-dev.20150823","1.6.0-dev.20150824","1.6.0-dev.20150825","1.7.0-dev.20150826","1.7.0-dev.20150827","1.7.0-dev.20150828","1.7.0-dev.20150829","1.7.0-dev.20150830","1.7.0-dev.20150831","1.7.0-dev.20150901","1.7.0-dev.20150902","1.6.0-beta","1.7.0-dev.20150903","1.7.0-dev.20150904","1.6.0-dev.20150905","1.6.0-dev.20150906","1.6.0-dev.20150907","1.6.0-dev.20150908","1.6.0-dev.20150909","1.6.0-dev.20150910","1.6.0-dev.20150911","1.6.0-dev.20150912","1.6.0-dev.20150913","1.6.0-dev.20150914","1.6.0-dev.20150915","1.7.0-dev.20150916","1.6.2","1.7.0-dev.20150917","1.7.0-dev.20150918","1.7.0-dev.20150919","1.7.0-dev.20150920","1.7.0-dev.20150921","1.7.0-dev.20150922","1.7.0-dev.20150923","1.7.0-dev.20150924","1.7.0-dev.20150925","1.7.0-dev.20150926","1.7.0-dev.20150927","1.7.0-dev.20150928","1.7.0-dev.20150929","1.7.0-dev.20150930","1.7.0-dev.20151001","1.7.0-dev.20151002","1.7.0-dev.20151003","1.7.0-dev.20151004","1.7.0-dev.20151005","1.7.0-dev.20151006","1.7.0-dev.20151014","1.7.0-dev.20151015","1.7.0-dev.20151016","1.8.0-dev.20151017","1.8.0-dev.20151018","1.8.0-dev.20151019","1.8.0-dev.20151020","1.8.0-dev.20151021","1.8.0-dev.20151022","1.8.0-dev.20151023","1.8.0-dev.20151024","1.8.0-dev.20151025","1.8.0-dev.20151026","1.8.0-dev.20151027","1.8.0-dev.20151028","1.8.0-dev.20151029","1.8.0-dev.20151030","1.8.0-dev.20151031","1.8.0-dev.20151101","1.8.0-dev.20151102","1.8.0-dev.20151103","1.8.0-dev.20151104","1.8.0-dev.20151105","1.8.0-dev.20151106","1.8.0-dev.20151107","1.8.0-dev.20151108","1.8.0-dev.20151109","1.8.0-dev.20151110","1.8.0-dev.20151111","1.8.0-dev.20151112","1.8.0-dev.20151113","1.8.0-dev.20151114","1.8.0-dev.20151115","1.8.0-dev.20151116","1.8.0-dev.20151117","1.8.0-dev.20151118","1.8.0-dev.20151119","1.8.0-dev.20151120","1.8.0-dev.20151121","1.8.0-dev.20151122","1.8.0-dev.20151123","1.8.0-dev.20151124","1.8.0-dev.20151125","1.8.0-dev.20151126","1.8.0-dev.20151127","1.8.0-dev.20151128","1.8.0-dev.20151129","1.8.0-dev.20151130","1.7.3","1.8.0-dev.20151201","1.8.0-dev.20151202","1.8.0-dev.20151203","1.8.0-dev.20151204","1.8.0-dev.20151210","1.8.0-dev.20151211","1.8.0-dev.20151212","1.8.0-dev.20151213","1.8.0-dev.20151214","1.7.5","1.8.0-dev.20151215","1.8.0-dev.20151216","1.8.0-dev.20151217","1.8.0-dev.20151218","1.8.0-dev.20151219","1.8.0-dev.20151220","1.8.0-dev.20151221","1.8.0-dev.20151222","1.8.0-dev.20151223","1.8.0-dev.20151224","1.8.0-dev.20151225","1.8.0-dev.20151226","1.8.0-dev.20151227","1.8.0-dev.20151228","1.8.0-dev.20151229","1.8.0-dev.20151230","1.8.0-dev.20151231","1.8.0-dev.20160101","1.8.0-dev.20160102","1.8.0-dev.20160103","1.8.0-dev.20160104","1.8.0-dev.20160105","1.8.0-dev.20160106","1.8.0-dev.20160107","1.8.0-dev.20160108","1.8.0-dev.20160109","1.8.0-dev.20160110","1.8.0-dev.20160111","1.8.0-dev.20160112","1.8.0-dev.20160113","1.8.0-dev.20160114","1.8.0-dev.20160115","1.8.0-dev.20160116","1.8.0-dev.20160117","1.8.0-dev.20160118","1.8.0-dev.20160119","1.8.0-dev.20160120","1.8.0-dev.20160121","1.8.0-dev.20160122","1.8.0-dev.20160123","1.8.0-dev.20160124","1.8.0-dev.20160125","1.9.0-dev.20160126","1.9.0-dev.20160127","1.9.0-dev.20160128","1.8.0","1.9.0-dev.20160129","1.9.0-dev.20160130","1.9.0-dev.20160131","1.9.0-dev.20160201","1.9.0-dev.20160202","1.9.0-dev.20160203","1.9.0-dev.20160204","1.9.0-dev.20160205","1.9.0-dev.20160206","1.9.0-dev.20160207","1.9.0-dev.20160208","1.9.0-dev.20160209","1.9.0-dev.20160210","1.9.0-dev.20160211","1.9.0-dev.20160212","1.9.0-dev.20160213","1.9.0-dev.20160214","1.9.0-dev.20160215","1.9.0-dev.20160216","1.9.0-dev.20160217","1.9.0-dev.20160218","1.9.0-dev.20160219","1.9.0-dev.20160220","1.9.0-dev.20160221","1.9.0-dev.20160222","1.8.2","1.9.0-dev.20160223","1.9.0-dev.20160224","1.9.0-dev.20160225","1.9.0-dev.20160226","1.9.0-dev.20160227","1.9.0-dev.20160228","1.9.0-dev.20160229","1.9.0-dev.20160301","1.8.5","1.8.6","1.8.7","1.9.0-dev.20160302","1.9.0-dev.20160302.1","1.9.0-dev.20160303","1.9.0-dev.20160304","1.9.0-dev.20160305","1.9.0-dev.20160306","1.9.0-dev.20160307","1.9.0-dev.20160308","1.9.0-dev.20160309","1.9.0-dev.20160310","1.9.0-dev.20160311","1.9.0-dev.20160312","1.9.0-dev.20160313","1.9.0-dev.20160315","1.9.0-dev.20160316","1.8.9","1.9.0-dev.20160317","1.9.0-dev.20160318","1.9.0-dev.20160319","1.9.0-dev.20160320","1.9.0-dev.20160321","1.9.0-dev.20160322","1.9.0-dev.20160323","1.9.0-dev.20160324","1.9.0-dev.20160325","1.9.0-dev.20160326","1.9.0-dev.20160327","1.9.0-dev.20160328","1.9.0-dev.20160329","1.9.0-dev.20160330","1.9.0-dev.20160331","1.9.0-dev.20160401","1.9.0-dev.20160402","1.9.0-dev.20160403","1.9.0-dev.20160404","1.9.0-dev.20160405","1.9.0-dev.20160406","1.9.0-dev.20160407","1.9.0-dev.20160408","1.9.0-dev.20160409","1.9.0-dev.20160411","1.9.0-dev.20160412","1.8.10","1.9.0-dev.20160413","1.9.0-dev.20160414","1.9.0-dev.20160415","1.9.0-dev.20160416","1.9.0-dev.20160417","1.9.0-dev.20160418","1.9.0-dev.20160419","1.9.0-dev.20160420","1.9.0-dev.20160421","1.9.0-dev.20160422","1.9.0-dev.20160423","1.9.0-dev.20160424","1.9.0-dev.20160425","1.9.0-dev.20160426","1.9.0-dev.20160427","1.9.0-dev.20160428","1.9.0-dev.20160428-1.0","1.9.0-dev.20160429","1.9.0-dev.20160430","1.9.0-dev.20160501","1.9.0-dev.20160502","1.9.0-dev.20160503","1.9.0-dev.20160504","1.9.0-dev.20160505","1.9.0-dev.20160506","1.9.0-dev.20160507","1.9.0-dev.20160508","1.9.0-dev.20160509","1.9.0-dev.20160510","1.9.0-dev.20160511","1.9.0-dev.20160512","1.9.0-dev.20160513","1.9.0-dev.20160514","1.9.0-dev.20160515","1.9.0-dev.20160516","1.9.0-dev.20160517-1.0","1.9.0-dev.20160518-1.0","1.9.0-dev.20160519-1.0","1.9.0-dev.20160520-1.0","1.9.0-dev.20160521-1.0","1.9.0-dev.20160522-1.0","1.9.0-dev.20160523-1.0","1.9.0-dev.20160524-1.0","1.9.0-dev.20160525-1.0","1.9.0-dev.20160526-1.0","1.9.0-dev.20160527-1.0","1.9.0-dev.20160528-1.0","1.9.0-dev.20160529-1.0","1.9.0-dev.20160530-1.0","1.9.0-dev.20160531-1.0","1.9.0-dev.20160601-1.0","1.9.0-dev.20160602-1.0","1.9.0-dev.20160603-1.0","1.9.0-dev.20160604-1.0","1.9.0-dev.20160605-1.0","1.9.0-dev.20160606-1.0","1.9.0-dev.20160607-1.0","1.9.0-dev.20160608-1.0","1.9.0-dev.20160609-1.0","1.9.0-dev.20160610-1.0","1.9.0-dev.20160611-1.0","1.9.0-dev.20160612-1.0","1.9.0-dev.20160613-1.0","1.9.0-dev.20160614-1.0","1.9.0-dev.20160615-1.0","1.9.0-dev.20160616-1.0","1.9.0-dev.20160617-1.0","1.9.0-dev.20160618-1.0","1.9.0-dev.20160619-1.0","1.9.0-dev.20160620-1.0","1.9.0-dev.20160622-1.0","1.9.0-dev.20160623-1.0","1.9.0-dev.20160624-1.0","1.9.0-dev.20160625-1.0","1.9.0-dev.20160626-1.0","1.9.0-dev.20160627-1.0","2.0.0-dev.20160628","2.0.0-dev.20160629","2.0.0-dev.20160630","2.0.0-dev.20160701","2.0.0-dev.20160702","2.0.0-dev.20160703","2.0.0-dev.20160704","2.0.0-dev.20160705","2.0.0-dev.20160706","2.0.0-dev.20160707","2.0.0-dev.20160711","2.0.0","2.1.0-dev.20160712","2.1.0-dev.20160713","2.1.0-dev.20160714","2.1.0-dev.20160715","2.1.0-dev.20160716","2.1.0-dev.20160717","2.1.0-dev.20160718","2.1.0-dev.20160719","2.1.0-dev.20160720","2.1.0-dev.20160721","2.1.0-dev.20160722","2.1.0-dev.20160723","2.1.0-dev.20160724","2.1.0-dev.20160725","2.1.0-dev.20160726","2.1.0-dev.20160727","2.1.0-dev.20160728","2.1.0-dev.20160729","2.1.0-dev.20160730","2.1.0-dev.20160731","2.1.0-dev.20160801","2.1.0-dev.20160802","2.1.0-dev.20160803","2.1.0-dev.20160804","2.1.0-dev.20160805","2.1.0-dev.20160806","2.1.0-dev.20160807","2.1.0-dev.20160808","2.1.0-dev.20160809","2.1.0-dev.20160810","2.1.0-dev.20160811","2.1.0-dev.20160812","2.1.0-dev.20160813","2.1.0-dev.20160814","2.1.0-dev.20160815","2.1.0-dev.20160816","2.1.0-dev.20160817","2.1.0-dev.20160818","2.1.0-dev.20160819","2.1.0-dev.20160820","2.1.0-dev.20160821","2.1.0-dev.20160822","2.1.0-dev.20160823","2.1.0-dev.20160824","2.1.0-dev.20160825","2.1.0-dev.20160826","2.1.0-dev.20160827","2.1.0-dev.20160828","2.1.0-dev.20160829","2.1.0-dev.20160830","2.0.2","2.1.0-dev.20160831","2.1.0-dev.20160901","2.1.0-dev.20160902","2.1.0-dev.20160903","2.1.0-dev.20160904","2.1.0-dev.20160905","2.1.0-dev.20160906","2.1.0-dev.20160907","2.1.0-dev.20160908","2.1.0-dev.20160909","2.1.0-dev.20160910","2.1.0-dev.20160911","2.1.0-dev.20160912","2.1.0-dev.20160913","2.1.0-dev.20160914","2.1.0-dev.20160915","2.1.0-dev.20160916","2.1.0-dev.20160917","2.1.0-dev.20160918","2.1.0-dev.20160919","2.1.0-dev.20160920","2.1.0-dev.20160921","2.1.0-dev.20160922","2.0.3","2.1.0-dev.20160923","2.1.0-dev.20160924","2.1.0-dev.20160925","2.1.0-dev.20160926","2.1.0-dev.20160927","2.1.0-dev.20160928","2.1.0-dev.20160929","2.1.0-dev.20160930","2.1.0-dev.20161001","2.1.0-dev.20161002","2.1.0-dev.20161003","2.1.0-dev.20161004","2.1.0-dev.20161005","2.1.0-dev.20161006","2.1.0-dev.20161007","2.0.6-insiders.20161007","2.1.0-dev.20161008","2.1.0-dev.20161009","2.1.0-dev.20161010","2.1.0-dev.20161011","2.1.0-dev.20161012","2.0.6-insiders.20161012","2.1.0-dev.20161013","2.1.0-dev.20161014","2.0.6-insiders.20161014","2.1.0-dev.20161015","2.1.0-dev.20161016","2.1.0-dev.20161017","2.0.6-insiders.20161017","2.1.0-dev.20161018","2.1.0-dev.20161019","2.1.0-dev.20161020","2.1.0-dev.20161021","2.1.0-dev.20161022","2.1.0-dev.20161023","2.1.0-dev.20161024","2.1.0-dev.20161025","2.0.6","2.1.0-dev.20161026","2.1.0-dev.20161027","2.1.0-dev.20161028","2.1.0-dev.20161029","2.1.0-dev.20161030","2.1.0-dev.20161031","2.1.0-dev.20161101","2.1.0-dev.20161102","2.1.0-dev.20161103","2.0.7","2.1.0-dev.20161104","2.1.0-dev.20161105","2.1.0-dev.20161106","2.1.0-dev.20161107","2.0.8","2.1.0-dev.20161108","2.1.1","2.1.0-dev.20161109","2.1.0-dev.20161110","2.0.9","2.2.0-dev.20161111","2.2.0-dev.20161112","2.2.0-dev.20161113","2.2.0-dev.20161114","2.2.0-dev.20161115","2.0.10","2.2.0-dev.20161116","2.2.0-dev.20161117","2.2.0-dev.20161118","2.2.0-dev.20161120","2.2.0-dev.20161121","2.2.0-dev.20161122","2.2.0-dev.20161123","2.2.0-dev.20161124","2.2.0-dev.20161125","2.2.0-dev.20161126","2.2.0-dev.20161127","2.2.0-dev.20161128","2.2.0-dev.20161129","2.1.3-insiders.20161130","2.2.0-dev.20161130","2.2.0-dev.20161201","2.1.4-insiders.20161201","2.2.0-dev.20161202","2.2.0-dev.20161203","2.2.0-dev.20161204","2.2.0-dev.20161205","2.1.4-insiders.20161206","2.2.0-dev.20161206","2.2.0-dev.20161207","2.1.4","2.2.0-dev.20161208","2.2.0-dev.20161209","2.2.0-dev.20161210","2.2.0-dev.20161211","2.2.0-dev.20161212","2.2.0-dev.20161213","2.1.5-insiders.20161213","2.2.0-dev.20161214","2.2.0-dev.20161215","2.2.0-dev.20161216","2.2.0-dev.20161217","2.2.0-dev.20161218","2.2.0-dev.20161219","2.2.0-dev.20161220","2.1.5-insiders.20161220","2.2.0-dev.20161221","2.2.0-dev.20161222","2.2.0-dev.20161223","2.2.0-dev.20161224","2.2.0-dev.20161225","2.2.0-dev.20161226","2.2.0-dev.20161227","2.2.0-dev.20161228","2.2.0-dev.20161229","2.1.5-insiders.20161229","2.2.0-dev.20161230","2.2.0-dev.20161231","2.2.0-dev.20170101","2.2.0-dev.20170102","2.2.0-dev.20170103","2.2.0-dev.20170104","2.2.0-dev.20170105","2.2.0-dev.20170106","2.2.0-dev.20170107","2.2.0-dev.20170108","2.2.0-dev.20170109","2.2.0-dev.20170110","2.2.0-dev.20170111","2.1.5","2.2.0-dev.20170112","2.2.0-dev.20170113","2.2.0-dev.20170114","2.2.0-dev.20170115","2.2.0-dev.20170116","2.2.0-dev.20170117","2.2.0-dev.20170118","2.2.0-dev.20170119","2.2.0-dev.20170120","2.2.0-dev.20170121","2.2.0-dev.20170122","2.2.0-dev.20170123","2.2.0-dev.20170124","2.2.0-dev.20170125","2.2.0-dev.20170126","2.2.0-dev.20170127","2.2.0-dev.20170128","2.2.0-dev.20170129","2.2.0-dev.20170130","2.2.0-dev.20170131","2.2.0-dev.20170201","2.2.0-dev.20170202","2.2.0","2.2.0-dev.20170203","2.2.0-dev.20170204","2.2.0-dev.20170205","2.2.0-dev.20170206","2.2.0-dev.20170207","2.1.6","2.2.0-dev.20170209","2.2.1-insiders.20170209","2.2.0-dev.20170210","2.2.0-dev.20170211","2.2.0-dev.20170212","2.2.0-dev.20170213","2.2.0-dev.20170214","2.3.0-dev.20170215","2.3.0-dev.20170216","2.2.1-insiders.20170216","2.3.0-dev.20170217","2.2.1-insiders.20170217","2.3.0-dev.20170218","2.3.0-dev.20170219","2.3.0-dev.20170220","2.3.0-dev.20170221","2.3.0-dev.20170222","2.2.1","2.3.0-dev.20170223","2.3.0-dev.20170224","2.3.0-dev.20170225","2.3.0-dev.20170226","2.3.0-dev.20170227","2.3.0-dev.20170228","2.3.0-dev.20170301","2.3.0-dev.20170302","2.2.2-insiders.20170302","2.3.0-dev.20170303","2.3.0-dev.20170306","2.3.0-dev.20170307","2.3.0-dev.20170308","2.3.0-dev.20170310","2.3.0-dev.20170311","2.3.0-dev.20170312","2.3.0-dev.20170313","2.3.0-dev.20170314","2.3.0-dev.20170315","2.3.0-dev.20170316","2.3.0-dev.20170317","2.2.2-insiders.20170317","2.3.0-dev.20170318","2.3.0-dev.20170319","2.3.0-dev.20170320","2.3.0-dev.20170321","2.3.0-dev.20170322","2.3.0-dev.20170323","2.3.0-dev.20170324","2.3.0-dev.20170325","2.3.0-dev.20170326","2.3.0-dev.20170327","2.2.2","2.3.0-dev.20170328","2.3.0-dev.20170329","2.3.0-dev.20170330","2.3.0-dev.20170331","2.3.0-dev.20170401","2.3.0-dev.20170402","2.3.0-dev.20170403","2.3.0-dev.20170404","2.3.0-dev.20170405"]
+947 verbose stack
+947 verbose stack     at installTargetsError (C:\Users\Flock Of Birds\node_modules\npm\lib\cache\add-named.js:284:12)
+947 verbose stack     at next (C:\Users\Flock Of Birds\node_modules\npm\lib\cache\add-named.js:94:10)
+947 verbose stack     at RES (C:\Users\Flock Of Birds\node_modules\npm\node_modules\inflight\inflight.js:23:14)
+947 verbose stack     at f (C:\Users\Flock Of Birds\node_modules\npm\node_modules\once\once.js:25:25)
+947 verbose stack     at fixName (C:\Users\Flock Of Birds\node_modules\npm\lib\cache\add-named.js:29:5)
+947 verbose stack     at saved (C:\Users\Flock Of Birds\node_modules\npm\lib\cache\caching-client.js:173:7)
+947 verbose stack     at C:\Users\Flock Of Birds\node_modules\npm\node_modules\graceful-fs\polyfills.js:233:18
+947 verbose stack     at FSReqWrap.oncomplete (fs.js:114:15)
+948 verbose cwd C:\Users\Flock Of Birds\Documents\GitHub\Badges\Wrapper\badge
+949 error Windows_NT 10.0.14393
+950 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Flock Of Birds\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "tslint-eslint-rules@undefined" "typescript@undefined" "webpack@undefined" "--color=always"
+951 error node v7.7.3
+952 error npm  v2.15.11
+953 error code ETARGET
+954 error notarget No compatible version found: typescript@'undefined'
+954 error notarget Valid install targets:
+954 error notarget ["0.8.0","0.8.1","0.8.1-1","0.8.2","0.8.3","0.9.0","0.9.0-1","0.9.1","0.9.1-1","0.9.5","0.9.7","1.0.0","1.0.1","1.1.0-1","1.3.0","1.4.1","1.5.0-alpha","1.5.0-beta","1.5.3","1.6.0-dev.20150722.1","1.6.0-dev.20150723","1.6.0-dev.20150724","1.6.0-dev.20150725","1.6.0-dev.20150726","1.6.0-dev.20150727","1.6.0-dev.20150728","1.6.0-dev.20150729","1.6.0-dev.20150730","1.6.0-dev.20150731","1.6.0-dev.20150801","1.6.0-dev.20150802","1.6.0-dev.20150803","1.6.0-dev.20150804","1.6.0-dev.20150805","1.6.0-dev.20150806","1.6.0-dev.20150807","1.6.0-dev.20150808","1.6.0-dev.20150809","1.6.0-dev.20150810","1.6.0-dev.20150811","1.6.0-dev.20150812","1.6.0-dev.20150813","1.6.0-dev.20150814","1.6.0-dev.20150815","1.6.0-dev.20150816","1.6.0-dev.20150817","1.6.0-dev.20150818","1.6.0-dev.20150819","1.6.0-dev.20150820","1.6.0-dev.20150821","1.6.0-dev.20150822","1.6.0-dev.20150823","1.6.0-dev.20150824","1.6.0-dev.20150825","1.7.0-dev.20150826","1.7.0-dev.20150827","1.7.0-dev.20150828","1.7.0-dev.20150829","1.7.0-dev.20150830","1.7.0-dev.20150831","1.7.0-dev.20150901","1.7.0-dev.20150902","1.6.0-beta","1.7.0-dev.20150903","1.7.0-dev.20150904","1.6.0-dev.20150905","1.6.0-dev.20150906","1.6.0-dev.20150907","1.6.0-dev.20150908","1.6.0-dev.20150909","1.6.0-dev.20150910","1.6.0-dev.20150911","1.6.0-dev.20150912","1.6.0-dev.20150913","1.6.0-dev.20150914","1.6.0-dev.20150915","1.7.0-dev.20150916","1.6.2","1.7.0-dev.20150917","1.7.0-dev.20150918","1.7.0-dev.20150919","1.7.0-dev.20150920","1.7.0-dev.20150921","1.7.0-dev.20150922","1.7.0-dev.20150923","1.7.0-dev.20150924","1.7.0-dev.20150925","1.7.0-dev.20150926","1.7.0-dev.20150927","1.7.0-dev.20150928","1.7.0-dev.20150929","1.7.0-dev.20150930","1.7.0-dev.20151001","1.7.0-dev.20151002","1.7.0-dev.20151003","1.7.0-dev.20151004","1.7.0-dev.20151005","1.7.0-dev.20151006","1.7.0-dev.20151014","1.7.0-dev.20151015","1.7.0-dev.20151016","1.8.0-dev.20151017","1.8.0-dev.20151018","1.8.0-dev.20151019","1.8.0-dev.20151020","1.8.0-dev.20151021","1.8.0-dev.20151022","1.8.0-dev.20151023","1.8.0-dev.20151024","1.8.0-dev.20151025","1.8.0-dev.20151026","1.8.0-dev.20151027","1.8.0-dev.20151028","1.8.0-dev.20151029","1.8.0-dev.20151030","1.8.0-dev.20151031","1.8.0-dev.20151101","1.8.0-dev.20151102","1.8.0-dev.20151103","1.8.0-dev.20151104","1.8.0-dev.20151105","1.8.0-dev.20151106","1.8.0-dev.20151107","1.8.0-dev.20151108","1.8.0-dev.20151109","1.8.0-dev.20151110","1.8.0-dev.20151111","1.8.0-dev.20151112","1.8.0-dev.20151113","1.8.0-dev.20151114","1.8.0-dev.20151115","1.8.0-dev.20151116","1.8.0-dev.20151117","1.8.0-dev.20151118","1.8.0-dev.20151119","1.8.0-dev.20151120","1.8.0-dev.20151121","1.8.0-dev.20151122","1.8.0-dev.20151123","1.8.0-dev.20151124","1.8.0-dev.20151125","1.8.0-dev.20151126","1.8.0-dev.20151127","1.8.0-dev.20151128","1.8.0-dev.20151129","1.8.0-dev.20151130","1.7.3","1.8.0-dev.20151201","1.8.0-dev.20151202","1.8.0-dev.20151203","1.8.0-dev.20151204","1.8.0-dev.20151210","1.8.0-dev.20151211","1.8.0-dev.20151212","1.8.0-dev.20151213","1.8.0-dev.20151214","1.7.5","1.8.0-dev.20151215","1.8.0-dev.20151216","1.8.0-dev.20151217","1.8.0-dev.20151218","1.8.0-dev.20151219","1.8.0-dev.20151220","1.8.0-dev.20151221","1.8.0-dev.20151222","1.8.0-dev.20151223","1.8.0-dev.20151224","1.8.0-dev.20151225","1.8.0-dev.20151226","1.8.0-dev.20151227","1.8.0-dev.20151228","1.8.0-dev.20151229","1.8.0-dev.20151230","1.8.0-dev.20151231","1.8.0-dev.20160101","1.8.0-dev.20160102","1.8.0-dev.20160103","1.8.0-dev.20160104","1.8.0-dev.20160105","1.8.0-dev.20160106","1.8.0-dev.20160107","1.8.0-dev.20160108","1.8.0-dev.20160109","1.8.0-dev.20160110","1.8.0-dev.20160111","1.8.0-dev.20160112","1.8.0-dev.20160113","1.8.0-dev.20160114","1.8.0-dev.20160115","1.8.0-dev.20160116","1.8.0-dev.20160117","1.8.0-dev.20160118","1.8.0-dev.20160119","1.8.0-dev.20160120","1.8.0-dev.20160121","1.8.0-dev.20160122","1.8.0-dev.20160123","1.8.0-dev.20160124","1.8.0-dev.20160125","1.9.0-dev.20160126","1.9.0-dev.20160127","1.9.0-dev.20160128","1.8.0","1.9.0-dev.20160129","1.9.0-dev.20160130","1.9.0-dev.20160131","1.9.0-dev.20160201","1.9.0-dev.20160202","1.9.0-dev.20160203","1.9.0-dev.20160204","1.9.0-dev.20160205","1.9.0-dev.20160206","1.9.0-dev.20160207","1.9.0-dev.20160208","1.9.0-dev.20160209","1.9.0-dev.20160210","1.9.0-dev.20160211","1.9.0-dev.20160212","1.9.0-dev.20160213","1.9.0-dev.20160214","1.9.0-dev.20160215","1.9.0-dev.20160216","1.9.0-dev.20160217","1.9.0-dev.20160218","1.9.0-dev.20160219","1.9.0-dev.20160220","1.9.0-dev.20160221","1.9.0-dev.20160222","1.8.2","1.9.0-dev.20160223","1.9.0-dev.20160224","1.9.0-dev.20160225","1.9.0-dev.20160226","1.9.0-dev.20160227","1.9.0-dev.20160228","1.9.0-dev.20160229","1.9.0-dev.20160301","1.8.5","1.8.6","1.8.7","1.9.0-dev.20160302","1.9.0-dev.20160302.1","1.9.0-dev.20160303","1.9.0-dev.20160304","1.9.0-dev.20160305","1.9.0-dev.20160306","1.9.0-dev.20160307","1.9.0-dev.20160308","1.9.0-dev.20160309","1.9.0-dev.20160310","1.9.0-dev.20160311","1.9.0-dev.20160312","1.9.0-dev.20160313","1.9.0-dev.20160315","1.9.0-dev.20160316","1.8.9","1.9.0-dev.20160317","1.9.0-dev.20160318","1.9.0-dev.20160319","1.9.0-dev.20160320","1.9.0-dev.20160321","1.9.0-dev.20160322","1.9.0-dev.20160323","1.9.0-dev.20160324","1.9.0-dev.20160325","1.9.0-dev.20160326","1.9.0-dev.20160327","1.9.0-dev.20160328","1.9.0-dev.20160329","1.9.0-dev.20160330","1.9.0-dev.20160331","1.9.0-dev.20160401","1.9.0-dev.20160402","1.9.0-dev.20160403","1.9.0-dev.20160404","1.9.0-dev.20160405","1.9.0-dev.20160406","1.9.0-dev.20160407","1.9.0-dev.20160408","1.9.0-dev.20160409","1.9.0-dev.20160411","1.9.0-dev.20160412","1.8.10","1.9.0-dev.20160413","1.9.0-dev.20160414","1.9.0-dev.20160415","1.9.0-dev.20160416","1.9.0-dev.20160417","1.9.0-dev.20160418","1.9.0-dev.20160419","1.9.0-dev.20160420","1.9.0-dev.20160421","1.9.0-dev.20160422","1.9.0-dev.20160423","1.9.0-dev.20160424","1.9.0-dev.20160425","1.9.0-dev.20160426","1.9.0-dev.20160427","1.9.0-dev.20160428","1.9.0-dev.20160428-1.0","1.9.0-dev.20160429","1.9.0-dev.20160430","1.9.0-dev.20160501","1.9.0-dev.20160502","1.9.0-dev.20160503","1.9.0-dev.20160504","1.9.0-dev.20160505","1.9.0-dev.20160506","1.9.0-dev.20160507","1.9.0-dev.20160508","1.9.0-dev.20160509","1.9.0-dev.20160510","1.9.0-dev.20160511","1.9.0-dev.20160512","1.9.0-dev.20160513","1.9.0-dev.20160514","1.9.0-dev.20160515","1.9.0-dev.20160516","1.9.0-dev.20160517-1.0","1.9.0-dev.20160518-1.0","1.9.0-dev.20160519-1.0","1.9.0-dev.20160520-1.0","1.9.0-dev.20160521-1.0","1.9.0-dev.20160522-1.0","1.9.0-dev.20160523-1.0","1.9.0-dev.20160524-1.0","1.9.0-dev.20160525-1.0","1.9.0-dev.20160526-1.0","1.9.0-dev.20160527-1.0","1.9.0-dev.20160528-1.0","1.9.0-dev.20160529-1.0","1.9.0-dev.20160530-1.0","1.9.0-dev.20160531-1.0","1.9.0-dev.20160601-1.0","1.9.0-dev.20160602-1.0","1.9.0-dev.20160603-1.0","1.9.0-dev.20160604-1.0","1.9.0-dev.20160605-1.0","1.9.0-dev.20160606-1.0","1.9.0-dev.20160607-1.0","1.9.0-dev.20160608-1.0","1.9.0-dev.20160609-1.0","1.9.0-dev.20160610-1.0","1.9.0-dev.20160611-1.0","1.9.0-dev.20160612-1.0","1.9.0-dev.20160613-1.0","1.9.0-dev.20160614-1.0","1.9.0-dev.20160615-1.0","1.9.0-dev.20160616-1.0","1.9.0-dev.20160617-1.0","1.9.0-dev.20160618-1.0","1.9.0-dev.20160619-1.0","1.9.0-dev.20160620-1.0","1.9.0-dev.20160622-1.0","1.9.0-dev.20160623-1.0","1.9.0-dev.20160624-1.0","1.9.0-dev.20160625-1.0","1.9.0-dev.20160626-1.0","1.9.0-dev.20160627-1.0","2.0.0-dev.20160628","2.0.0-dev.20160629","2.0.0-dev.20160630","2.0.0-dev.20160701","2.0.0-dev.20160702","2.0.0-dev.20160703","2.0.0-dev.20160704","2.0.0-dev.20160705","2.0.0-dev.20160706","2.0.0-dev.20160707","2.0.0-dev.20160711","2.0.0","2.1.0-dev.20160712","2.1.0-dev.20160713","2.1.0-dev.20160714","2.1.0-dev.20160715","2.1.0-dev.20160716","2.1.0-dev.20160717","2.1.0-dev.20160718","2.1.0-dev.20160719","2.1.0-dev.20160720","2.1.0-dev.20160721","2.1.0-dev.20160722","2.1.0-dev.20160723","2.1.0-dev.20160724","2.1.0-dev.20160725","2.1.0-dev.20160726","2.1.0-dev.20160727","2.1.0-dev.20160728","2.1.0-dev.20160729","2.1.0-dev.20160730","2.1.0-dev.20160731","2.1.0-dev.20160801","2.1.0-dev.20160802","2.1.0-dev.20160803","2.1.0-dev.20160804","2.1.0-dev.20160805","2.1.0-dev.20160806","2.1.0-dev.20160807","2.1.0-dev.20160808","2.1.0-dev.20160809","2.1.0-dev.20160810","2.1.0-dev.20160811","2.1.0-dev.20160812","2.1.0-dev.20160813","2.1.0-dev.20160814","2.1.0-dev.20160815","2.1.0-dev.20160816","2.1.0-dev.20160817","2.1.0-dev.20160818","2.1.0-dev.20160819","2.1.0-dev.20160820","2.1.0-dev.20160821","2.1.0-dev.20160822","2.1.0-dev.20160823","2.1.0-dev.20160824","2.1.0-dev.20160825","2.1.0-dev.20160826","2.1.0-dev.20160827","2.1.0-dev.20160828","2.1.0-dev.20160829","2.1.0-dev.20160830","2.0.2","2.1.0-dev.20160831","2.1.0-dev.20160901","2.1.0-dev.20160902","2.1.0-dev.20160903","2.1.0-dev.20160904","2.1.0-dev.20160905","2.1.0-dev.20160906","2.1.0-dev.20160907","2.1.0-dev.20160908","2.1.0-dev.20160909","2.1.0-dev.20160910","2.1.0-dev.20160911","2.1.0-dev.20160912","2.1.0-dev.20160913","2.1.0-dev.20160914","2.1.0-dev.20160915","2.1.0-dev.20160916","2.1.0-dev.20160917","2.1.0-dev.20160918","2.1.0-dev.20160919","2.1.0-dev.20160920","2.1.0-dev.20160921","2.1.0-dev.20160922","2.0.3","2.1.0-dev.20160923","2.1.0-dev.20160924","2.1.0-dev.20160925","2.1.0-dev.20160926","2.1.0-dev.20160927","2.1.0-dev.20160928","2.1.0-dev.20160929","2.1.0-dev.20160930","2.1.0-dev.20161001","2.1.0-dev.20161002","2.1.0-dev.20161003","2.1.0-dev.20161004","2.1.0-dev.20161005","2.1.0-dev.20161006","2.1.0-dev.20161007","2.0.6-insiders.20161007","2.1.0-dev.20161008","2.1.0-dev.20161009","2.1.0-dev.20161010","2.1.0-dev.20161011","2.1.0-dev.20161012","2.0.6-insiders.20161012","2.1.0-dev.20161013","2.1.0-dev.20161014","2.0.6-insiders.20161014","2.1.0-dev.20161015","2.1.0-dev.20161016","2.1.0-dev.20161017","2.0.6-insiders.20161017","2.1.0-dev.20161018","2.1.0-dev.20161019","2.1.0-dev.20161020","2.1.0-dev.20161021","2.1.0-dev.20161022","2.1.0-dev.20161023","2.1.0-dev.20161024","2.1.0-dev.20161025","2.0.6","2.1.0-dev.20161026","2.1.0-dev.20161027","2.1.0-dev.20161028","2.1.0-dev.20161029","2.1.0-dev.20161030","2.1.0-dev.20161031","2.1.0-dev.20161101","2.1.0-dev.20161102","2.1.0-dev.20161103","2.0.7","2.1.0-dev.20161104","2.1.0-dev.20161105","2.1.0-dev.20161106","2.1.0-dev.20161107","2.0.8","2.1.0-dev.20161108","2.1.1","2.1.0-dev.20161109","2.1.0-dev.20161110","2.0.9","2.2.0-dev.20161111","2.2.0-dev.20161112","2.2.0-dev.20161113","2.2.0-dev.20161114","2.2.0-dev.20161115","2.0.10","2.2.0-dev.20161116","2.2.0-dev.20161117","2.2.0-dev.20161118","2.2.0-dev.20161120","2.2.0-dev.20161121","2.2.0-dev.20161122","2.2.0-dev.20161123","2.2.0-dev.20161124","2.2.0-dev.20161125","2.2.0-dev.20161126","2.2.0-dev.20161127","2.2.0-dev.20161128","2.2.0-dev.20161129","2.1.3-insiders.20161130","2.2.0-dev.20161130","2.2.0-dev.20161201","2.1.4-insiders.20161201","2.2.0-dev.20161202","2.2.0-dev.20161203","2.2.0-dev.20161204","2.2.0-dev.20161205","2.1.4-insiders.20161206","2.2.0-dev.20161206","2.2.0-dev.20161207","2.1.4","2.2.0-dev.20161208","2.2.0-dev.20161209","2.2.0-dev.20161210","2.2.0-dev.20161211","2.2.0-dev.20161212","2.2.0-dev.20161213","2.1.5-insiders.20161213","2.2.0-dev.20161214","2.2.0-dev.20161215","2.2.0-dev.20161216","2.2.0-dev.20161217","2.2.0-dev.20161218","2.2.0-dev.20161219","2.2.0-dev.20161220","2.1.5-insiders.20161220","2.2.0-dev.20161221","2.2.0-dev.20161222","2.2.0-dev.20161223","2.2.0-dev.20161224","2.2.0-dev.20161225","2.2.0-dev.20161226","2.2.0-dev.20161227","2.2.0-dev.20161228","2.2.0-dev.20161229","2.1.5-insiders.20161229","2.2.0-dev.20161230","2.2.0-dev.20161231","2.2.0-dev.20170101","2.2.0-dev.20170102","2.2.0-dev.20170103","2.2.0-dev.20170104","2.2.0-dev.20170105","2.2.0-dev.20170106","2.2.0-dev.20170107","2.2.0-dev.20170108","2.2.0-dev.20170109","2.2.0-dev.20170110","2.2.0-dev.20170111","2.1.5","2.2.0-dev.20170112","2.2.0-dev.20170113","2.2.0-dev.20170114","2.2.0-dev.20170115","2.2.0-dev.20170116","2.2.0-dev.20170117","2.2.0-dev.20170118","2.2.0-dev.20170119","2.2.0-dev.20170120","2.2.0-dev.20170121","2.2.0-dev.20170122","2.2.0-dev.20170123","2.2.0-dev.20170124","2.2.0-dev.20170125","2.2.0-dev.20170126","2.2.0-dev.20170127","2.2.0-dev.20170128","2.2.0-dev.20170129","2.2.0-dev.20170130","2.2.0-dev.20170131","2.2.0-dev.20170201","2.2.0-dev.20170202","2.2.0","2.2.0-dev.20170203","2.2.0-dev.20170204","2.2.0-dev.20170205","2.2.0-dev.20170206","2.2.0-dev.20170207","2.1.6","2.2.0-dev.20170209","2.2.1-insiders.20170209","2.2.0-dev.20170210","2.2.0-dev.20170211","2.2.0-dev.20170212","2.2.0-dev.20170213","2.2.0-dev.20170214","2.3.0-dev.20170215","2.3.0-dev.20170216","2.2.1-insiders.20170216","2.3.0-dev.20170217","2.2.1-insiders.20170217","2.3.0-dev.20170218","2.3.0-dev.20170219","2.3.0-dev.20170220","2.3.0-dev.20170221","2.3.0-dev.20170222","2.2.1","2.3.0-dev.20170223","2.3.0-dev.20170224","2.3.0-dev.20170225","2.3.0-dev.20170226","2.3.0-dev.20170227","2.3.0-dev.20170228","2.3.0-dev.20170301","2.3.0-dev.20170302","2.2.2-insiders.20170302","2.3.0-dev.20170303","2.3.0-dev.20170306","2.3.0-dev.20170307","2.3.0-dev.20170308","2.3.0-dev.20170310","2.3.0-dev.20170311","2.3.0-dev.20170312","2.3.0-dev.20170313","2.3.0-dev.20170314","2.3.0-dev.20170315","2.3.0-dev.20170316","2.3.0-dev.20170317","2.2.2-insiders.20170317","2.3.0-dev.20170318","2.3.0-dev.20170319","2.3.0-dev.20170320","2.3.0-dev.20170321","2.3.0-dev.20170322","2.3.0-dev.20170323","2.3.0-dev.20170324","2.3.0-dev.20170325","2.3.0-dev.20170326","2.3.0-dev.20170327","2.2.2","2.3.0-dev.20170328","2.3.0-dev.20170329","2.3.0-dev.20170330","2.3.0-dev.20170331","2.3.0-dev.20170401","2.3.0-dev.20170402","2.3.0-dev.20170403","2.3.0-dev.20170404","2.3.0-dev.20170405"]
+954 error notarget
+954 error notarget This is most likely not a problem with npm itself.
+954 error notarget In most cases you or one of your dependencies are requesting
+954 error notarget a package version that doesn't exist.
+954 error notarget
+954 error notarget It was specified as a dependency of 'badge'
+955 verbose exit [ 1, true ]
