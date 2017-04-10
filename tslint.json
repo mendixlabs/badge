@@ -5,7 +5,7 @@
     "class-name": true,
     "comment-format": [ true, "check-space" ],
     "eofline": true,
-    "indent": [ true, "spaces" ],
+    "indent": [ true, "tabs" ],
     "member-ordering": [ true, "variables-before-functions" ],
     "no-arg": true,
     "no-bitwise": true,
