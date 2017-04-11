@@ -63,7 +63,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
 	}
 
 	componentWillUnmount() {
-		this.unsubscribe();
+		this.subscriptionHandles.forEach(window.mx.data.unsubscribe);
 	}
 
 	private updateValues(mxObject: mendix.lib.MxObject) {
@@ -82,7 +82,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
 	}
 
 	private resetSubscriptions(mxObject: mendix.lib.MxObject) {
-		this.unsubscribe();
+		this.subscriptionHandles.forEach(window.mx.data.unsubscribe);
 
 		this.subscriptionHandles = [];
 		if (mxObject) {
@@ -91,19 +91,13 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
 				guid: mxObject.getGuid()
 			}));
 
-			[this.props.valueAttribute, this.props.styleAttribute, this.props.labelAttribute].forEach((attr) =>
+			[ this.props.valueAttribute, this.props.styleAttribute, this.props.labelAttribute ].forEach((attr) =>
 				this.subscriptionHandles.push(window.mx.data.subscribe({
 					attr,
 					callback: () => this.updateValues(mxObject),
 					guid: mxObject.getGuid()
 				}))
 			);
-		}
-	}
-
-	private unsubscribe() {
-		if (this.subscriptionHandles) {
-			this.subscriptionHandles.forEach((handle) => window.mx.data.unsubscribe(handle));
 		}
 	}
 
@@ -130,7 +124,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
 				error: (error) => window.mx.ui.error(`Error while executing microflow: ${microflow}: ${error.message}`),
 				params: {
 					applyto: "selection",
-					guids: [mxObject.getGuid()]
+					guids: [ mxObject.getGuid() ]
 				}
 			});
 		} else if (onClickEvent === "showPage" && page && mxObject.getGuid()) {
