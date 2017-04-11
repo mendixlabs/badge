@@ -18,11 +18,12 @@ https://badge.mxapps.io
 
 ### Usage
 
-Place the widget in the context of an object that has attributes for data, label and style
+Place the widget in the context of an object that has attributes for data, label and style.
 
 ## Issues, suggestions and feature requests
 
-We are actively maintaining this widget, please report any issues or suggestion for improvement at https://github.com/mendixlabs/badge/issues.
+We are actively maintaining this widget, please report any issues or suggestion for improvement at
+https://github.com/mendixlabs/badge/issues.
 
 ## Developer
 Prerequisite: Install git, node package manager, webpack CLI, grunt CLI, Karma CLI

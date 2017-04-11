@@ -83,8 +83,8 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
 
 	private resetSubscriptions(mxObject: mendix.lib.MxObject) {
 		this.subscriptionHandles.forEach(window.mx.data.unsubscribe);
-
 		this.subscriptionHandles = [];
+
 		if (mxObject) {
 			this.subscriptionHandles.push(window.mx.data.subscribe({
 				callback: () => this.updateValues(mxObject),
@@ -117,6 +117,9 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
 
 	private handleOnClick() {
 		const { mxObject, onClickEvent, microflow, page } = this.props;
+		if (!mxObject || !mxObject.getGuid()) {
+			return;
+		}
 		const context = new mendix.lib.MxContext();
 		context.setContext(mxObject.getEntity(), mxObject.getGuid());
 		if (onClickEvent === "callMicroflow" && microflow && mxObject.getGuid()) {
