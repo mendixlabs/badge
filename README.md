@@ -1,4 +1,4 @@
-### Description
+### Badge
 
 A badge is a numerical indicator of how many items are associated with a link
 
@@ -37,28 +37,21 @@ The code is in typescript. Use a typescript IDE of your choice, like Visual Stud
 To set up the development environment, run:
 
     npm install
-    
+
 Create a folder named dist in the project root.
 
 Create a Mendix test project in the dist folder and rename its root folder to MxTestProject. Changes to the widget code shall be automatically pushed to this test project.
 
     dist/MxTestProject
-    
+
 To automatically compile, bundle and push code changes to the running test project, run:
 
     grunt
-    
+
 To run the project unit tests, run:
 
     npm test
-    
+
 or
 
     karma start
-
-### Disclaimer
-
-Status: In development
-
-This widget should not be used in a production environment.
-No guarantees are given that this works or keeps working, until it is officially released
