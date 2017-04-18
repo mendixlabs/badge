@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<widget id="com.mendix.widget.custom.badge.Badge" needsEntityContext="true" offlineCapable="true"
-    xmlns="http://www.mendix.com/widget/1.0/"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../xsd/widget.xsd">
+<widget id="com.mendix.widget.custom.badge.Badge" needsEntityContext="true" offlineCapable="true" xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../xsd/widget.xsd">
     <name>Badge</name>
     <description>Badges are numerical indicators of how many items are associated with a link</description>
     <icon/>
@@ -11,8 +9,8 @@
             <category>Display</category>
             <description>The label to display before the badge/label</description>
             <translations>
-                <translation lang="en_US">Add your message here.</translation>
-                <translation lang="nl_NL">Vul hier je bericht in.</translation>
+                <translation lang="en_US"></translation>
+                <translation lang="nl_NL"></translation>
             </translations>
         </property>
         <property key="badgeValue" type="translatableString" required="false">
@@ -20,8 +18,8 @@
             <category>Display</category>
             <description>The value to display in the badge</description>
             <translations>
-                <translation lang="en_US">Add your message here.</translation>
-                <translation lang="nl_NL">Vul hier je bericht in.</translation>
+                <translation lang="en_US"></translation>
+                <translation lang="nl_NL"></translation>
             </translations>
         </property>
         <property key="badgeStyle" type="enumeration" defaultValue="default">
