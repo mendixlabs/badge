@@ -22,8 +22,7 @@ describe("Badge", () => {
                     onClick: jasmine.any(Function) as any
                 },
                 DOM.span({ className: "widget-badge-text" }, badgeProps.label),
-                DOM.span({ className: "widget-badge badge label-default" }, badgeProps.value),
-                createElement(Alert)
+                DOM.span({ className: "widget-badge badge label-default" }, badgeProps.value)
             )
         );
     });
