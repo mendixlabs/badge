@@ -17,7 +17,6 @@ When displaying badge, the widget will prioritize context data specified in `Dat
 That is to say the widget label will show data from `Data source` tab over that from `Display` tab.
 Likewise the widget value will show data from `Data source` tab over that from `Display` tab.
 
-
 ## Demo project
 
 [https://badge.mxapps.io/](https://badge.mxapps.io/)

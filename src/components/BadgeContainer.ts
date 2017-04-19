@@ -72,7 +72,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
         });
     }
 
-    private getValue(mxObject: mendix.lib.MxObject, attributeName: string, defaultValue: string) {
+    private getValue(mxObject: mendix.lib.MxObject, attributeName: string, defaultValue: string): string {
         if (mxObject) {
             return mxObject.get(attributeName) as string || defaultValue;
         }
