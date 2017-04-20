@@ -7,7 +7,7 @@
     "sourceMap": true,
     "module": "amd",
     "target": "es5",
-    "types": [ "mendix-client", "jasmine" ],
+    "types": [ "mendix-client", "jasmine", "core-js" ],
     "moduleResolution": "node",
     "declaration": false,
     "removeComments": true,
@@ -21,7 +21,7 @@
     "skipLibCheck": false,
     "strictNullChecks": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": false
   },
   "exclude": [
     "dist/",

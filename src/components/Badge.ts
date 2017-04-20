@@ -12,7 +12,7 @@ export interface BadgeProps {
 }
 
 export const Badge = (props: BadgeProps) =>
-    createElement("div",
+    createElement("div",
         {
             className: classNames("widget-badge", { "widget-badge-link": props.clickable }),
             onClick: props.onClickAction
