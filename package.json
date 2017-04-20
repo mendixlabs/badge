@@ -2,7 +2,7 @@
   "name": "badge",
   "widgetName": "Badge",
   "version": "1.0.0",
-  "description": "Badges are numerical indicators of how many items are associated with a link",
+  "description": "Show a numerical indicator of how many items are associated with a link",
   "copyright": "Mendix BV",
   "scripts": {
     "pretest": "tsc",
