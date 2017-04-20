@@ -1,33 +1,31 @@
 ## Badge
 
-A badge is a numerical indicator of how many items are associated with a link
+Show a numerical indicator of how many items are associated with a link
 
 ## Features
 
  * Display a badge on a button
  * Attach an onclick microflow
- * Set a static label text when the persisted label is empty or not specified
+ * Set a static label text when the persisted label is not specified
 
 ## Dependencies
 
 Mendix 7.1
 
-## How it Works
-When displaying badge, the widget will prioritize context data specified in `Data source` tab data over static data specified in `Display` tab.
-That is to say the widget label will show data from `Data source` tab over that from `Display` tab.
-Likewise the widget value will show data from `Data source` tab over that from `Display` tab.
+## Usage
+Place the widget in the context of an object that has a label attribute, value attribute and bootstrap style attribute.
+
+The data source attributes specified in the `Data source` tab are optional. If not set, static data should be specified in the `Display` tab.
+
+<img src="./assets/Static_attributes.png" width="600px" height="300px" />
+<img src="./assets/Data_source.png" width="600px" height="300px" />
+<img src="./assets/Behaviour.png" width="600px" height="300px" />
 
 ## Demo project
 
 [https://badge.mxapps.io/](https://badge.mxapps.io/)
 
 <img src="./assets/demo.png" width="900px" height="400px" />
-
-## Usage
-
-<img src="./assets/Static_attributes.png" width="600px" height="300px" />
-<img src="./assets/Data_source.png" width="600px" height="300px" />
-<img src="./assets/Behaviour.png" width="600px" height="300px" />
 
 ## Issues, suggestions and feature requests
 
@@ -49,9 +47,9 @@ To set up the development environment, run:
 
 Create a folder named dist in the project root.
 
-Create a Mendix test project in the dist folder and rename its root folder to MxTestProject. Changes to the widget code shall be automatically pushed to this test project. Or get the test project from [https://github.com/mendixlabs/badge/releases/download/1.0.0/badge.mpk](https://github.com/mendixlabs/badge/releases/download/1.0.0/badge.mpk)
+Create a Mendix test project in the dist folder and rename its root folder to `dist/MxTestProject`. Changes to the widget code shall be automatically pushed to this test project.
 
-    dist/MxTestProject
+[https://github.com/MendixLabs/badge/releases/download/1.0.0/Test.mpr](https://github.com/MendixLabs/badge/releases/download/1.0.0/Test.mpr)
 
 To automatically compile, bundle and push code changes to the running test project, run:
 
