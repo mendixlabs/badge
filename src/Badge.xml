@@ -9,7 +9,7 @@
         <property key="label" type="translatableString" required="false">
             <caption>Label</caption>
             <category>Display</category>
-            <description>The label to display before the badge/label</description>
+            <description>The badge label</description>
             <translations>
                 <translation lang="en_US"></translation>
                 <translation lang="nl_NL"></translation>
@@ -18,16 +18,16 @@
         <property key="badgeValue" type="translatableString" required="false">
             <caption>Value</caption>
             <category>Display</category>
-            <description>The value to display in the badge</description>
+            <description>The badge value</description>
             <translations>
                 <translation lang="en_US"></translation>
                 <translation lang="nl_NL"></translation>
             </translations>
         </property>
-        <property key="badgeStyle" type="enumeration" defaultValue="default">
-            <caption>Style</caption>
+        <property key="bootstrapStyle" type="enumeration" defaultValue="default">
+            <caption>Bootstrap style</caption>
             <category>Display</category>
-            <description>The styling and color of the badge/label using Bootstrap classes</description>
+            <description>The appearance of the badge based on Bootstrap classes</description>
             <enumerationValues>
                 <enumerationValue key="default">Default</enumerationValue>
                 <enumerationValue key="primary">Primary</enumerationValue>
@@ -37,10 +37,10 @@
                 <enumerationValue key="danger">Danger</enumerationValue>
             </enumerationValues>
         </property>
-        <property key="styleAttribute" type="attribute" required="false">
-            <caption>Bootstrap style</caption>
+        <property key="bootstrapStyleAttribute" type="attribute" required="false">
+            <caption>Bootstrap style attribute</caption>
             <category>Data source</category>
-            <description>The attribute value should be: info, warning, danger, success. Alternatively use the 'Class' property set Common category</description>
+            <description>The attribute value should be: default, primary, info, warning, danger, success.</description>
             <attributeTypes>
                 <attributeType name="Enum" />
                 <attributeType name="String" />
@@ -49,7 +49,7 @@
         <property key="labelAttribute" type="attribute" required="false">
             <caption>Label attribute</caption>
             <category>Data source</category>
-            <description>The attribute that contains the label for the widget</description>
+            <description>The attribute that contains the badge label</description>
             <attributeTypes>
                 <attributeType name="Enum" />
                 <attributeType name="String" />
@@ -58,7 +58,7 @@
         <property key="valueAttribute" type="attribute" required="false">
             <caption>Data attribute</caption>
             <category>Data source</category>
-            <description>The attribute that contains the label/badge value</description>
+            <description>The attribute that contains the badge value</description>
             <attributeTypes>
                 <attributeType name="String" />
                 <attributeType name="Integer" />

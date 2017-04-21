@@ -36,43 +36,43 @@ describe("Badge", () => {
         expect(onClick).toHaveBeenCalledTimes(1);
     });
 
-    it("with style default should render with class btn-default", () => {
-        const badgeProps: BadgeProps = { style: "default" };
+    it("with Bootstrap style default should render with class btn-default", () => {
+        const badgeProps: BadgeProps = { bootstrapStyle: "default" };
         const badge = createBadge(badgeProps);
 
         expect(badge.childAt(1).hasClass("label-default")).toBe(true);
     });
 
-    it("with style default should render with class btn-primary", () => {
-        const badgeProps: BadgeProps = { style: "primary" };
+    it("with Bootstrap style default should render with class btn-primary", () => {
+        const badgeProps: BadgeProps = { bootstrapStyle: "primary" };
         const badge = createBadge(badgeProps);
 
         expect(badge.childAt(1).hasClass("label-primary")).toBe(true);
     });
 
-    it("with style default should render with class btn-success", () => {
-        const badgeProps: BadgeProps = { style: "success" };
+    it("with Bootstrap style default should render with class btn-success", () => {
+        const badgeProps: BadgeProps = { bootstrapStyle: "success" };
         const badge = createBadge(badgeProps);
 
         expect(badge.childAt(1).hasClass("label-success")).toBe(true);
     });
 
-    it("with style default should render with class btn-sucinfocess", () => {
-        const badgeProps: BadgeProps = { style: "info" };
+    it("with Bootstrap style default should render with class btn-sucinfocess", () => {
+        const badgeProps: BadgeProps = { bootstrapStyle: "info" };
         const badge = createBadge(badgeProps);
 
         expect(badge.childAt(1).hasClass("label-info")).toBe(true);
     });
 
-    it("with style default should render with class btn-warning", () => {
-        const badgeProps: BadgeProps = { style: "warning" };
+    it("with Bootstrap style default should render with class btn-warning", () => {
+        const badgeProps: BadgeProps = { bootstrapStyle: "warning" };
         const badge = createBadge(badgeProps);
 
         expect(badge.childAt(1).hasClass("label-warning")).toBe(true);
     });
 
-    it("with style default should render with class btn-danger", () => {
-        const badgeProps: BadgeProps = { style: "danger" };
+    it("with Bootstrap style default should render with class btn-danger", () => {
+        const badgeProps: BadgeProps = { bootstrapStyle: "danger" };
         const badge = createBadge(badgeProps);
 
         expect(badge.childAt(1).hasClass("label-danger")).toBe(true);

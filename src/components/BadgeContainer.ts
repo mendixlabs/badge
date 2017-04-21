@@ -1,15 +1,20 @@
 import { Component, createElement } from "react";
 
-import { Badge } from "./Badge";
+import { Badge, BootstrapStyle } from "./Badge";
 import { Alert } from "./Alert";
 
-interface BadgeContainerProps {
-    mxObject: mendix.lib.MxObject;
+interface WrapperProps {
+    class?: string;
+    mxObject?: mendix.lib.MxObject;
+    style?: string;
+}
+
+interface BadgeContainerProps extends WrapperProps {
     valueAttribute: string;
-    styleAttribute: string;
+    bootstrapStyleAttribute: string;
     labelAttribute: string;
     label: string;
-    badgeStyle: string;
+    bootstrapStyle: BootstrapStyle;
     badgeValue: string;
     microflow: string;
     onClickEvent: OnClickOptions;
@@ -20,7 +25,7 @@ interface BadgeContainerState {
     alertMessage?: string;
     value: string;
     label: string;
-    style: string;
+    bootstrapStyle: BootstrapStyle | string;
 }
 
 type OnClickOptions = "doNothing" | "showPage" | "callMicroflow";
@@ -33,9 +38,9 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
 
         this.state = {
             alertMessage: this.validateProps(),
-            label: this.getValue(props.mxObject, props.labelAttribute, props.label),
-            style: this.getValue(props.mxObject, props.styleAttribute, props.badgeStyle),
-            value: this.getValue(props.mxObject, props.valueAttribute, props.badgeValue)
+            bootstrapStyle: this.getValue(props.bootstrapStyleAttribute, props.bootstrapStyle, props.mxObject),
+            label: this.getValue(props.labelAttribute, props.label, props.mxObject),
+            value: this.getValue(props.valueAttribute, props.badgeValue, props.mxObject)
         };
         this.subscriptionHandles = [];
         this.handleOnClick = this.handleOnClick.bind(this);
@@ -47,10 +52,12 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
         }
 
         return createElement(Badge, {
+            bootstrapStyle: this.state.bootstrapStyle as BootstrapStyle,
+            className: this.props.class,
             clickable: !!this.props.microflow || !!this.props.page,
             label: this.state.label,
             onClickAction: this.handleOnClick,
-            style: this.state.style,
+            style: BadgeContainer.parseStyle(this.props.style),
             value: this.state.value
         });
     }
@@ -64,22 +71,22 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
         this.subscriptionHandles.forEach(window.mx.data.unsubscribe);
     }
 
-    private updateValues(mxObject: mendix.lib.MxObject) {
+    private updateValues(mxObject?: mendix.lib.MxObject) {
         this.setState({
-            label: this.getValue(mxObject, this.props.labelAttribute, this.props.label),
-            style: this.getValue(mxObject, this.props.styleAttribute, this.props.badgeStyle),
-            value: this.getValue(mxObject, this.props.valueAttribute, this.props.badgeValue)
+            bootstrapStyle: this.getValue(this.props.bootstrapStyleAttribute, this.props.bootstrapStyle, mxObject),
+            label: this.getValue(this.props.labelAttribute, this.props.label, mxObject),
+            value: this.getValue(this.props.valueAttribute, this.props.badgeValue, mxObject)
         });
     }
 
-    private getValue(mxObject: mendix.lib.MxObject, attributeName: string, defaultValue: string): string {
+    private getValue<T>(attributeName: string, defaultValue: T, mxObject?: mendix.lib.MxObject): string | T {
         if (mxObject) {
             return mxObject.get(attributeName) as string || defaultValue;
         }
         return defaultValue;
     }
 
-    private resetSubscriptions(mxObject: mendix.lib.MxObject) {
+    private resetSubscriptions(mxObject?: mendix.lib.MxObject) {
         this.subscriptionHandles.forEach(window.mx.data.unsubscribe);
 
         if (mxObject) {
@@ -88,7 +95,11 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
                 guid: mxObject.getGuid()
             }));
 
-            [ this.props.valueAttribute, this.props.styleAttribute, this.props.labelAttribute ].forEach((attr) =>
+            [
+                this.props.valueAttribute,
+                this.props.bootstrapStyleAttribute,
+                this.props.labelAttribute
+            ].forEach((attr) =>
                 this.subscriptionHandles.push(window.mx.data.subscribe({
                     attr,
                     callback: () => this.updateValues(mxObject),
@@ -133,5 +144,22 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
                 error: (error) => window.mx.ui.error(`Error while opening page ${page}: ${error.message}`)
             });
         }
+    }
+
+    private static parseStyle(style = ""): {[key: string]: string} {
+        try {
+            return style.split(";").reduce<{[key: string]: string}>((styleObject, line) => {
+                const pair = line.split(":");
+                if (pair.length === 2) {
+                    const name = pair[0].trim().replace(/(-.)/g, match => match[1].toUpperCase());
+                    styleObject[name] = pair[1].trim();
+                }
+                return styleObject;
+            }, {});
+        } catch (error) {
+            console.log("Failed to parse bootstrapStyle", style, error);
+        }
+
+        return {};
     }
 }
