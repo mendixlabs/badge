@@ -37,6 +37,15 @@
                 <enumerationValue key="danger">Danger</enumerationValue>
             </enumerationValues>
         </property>
+        <property key="badgeType" type="enumeration" required="true" defaultValue="badge">  
+            <caption>Type</caption>
+            <category>Display</category>
+            <description>Render either the display of a badge or a label</description>
+            <enumerationValues>
+                <enumerationValue key="badge">badge</enumerationValue>
+                <enumerationValue key="label">label</enumerationValue>
+                </enumerationValues>
+        </property>
         <property key="bootstrapStyleAttribute" type="attribute" required="false">
             <caption>Bootstrap style attribute</caption>
             <category>Data source</category>

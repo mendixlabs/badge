@@ -1,0 +1,12 @@
+.widget-colorlabel {
+    display: inline-block;
+}
+
+.widget-colorlabel-text {
+    white-space: nowrap;
+    padding-right: 5px;
+}
+
+.widget-colorlabel-link {
+    cursor: pointer;
+}

@@ -1,6 +1,8 @@
 import { Component, createElement } from "react";
+// import * as classNames from "classnames";
 
 import { Badge, BootstrapStyle } from "./Badge";
+// import { ColorLabel } from "./ColorLabel";
 import { Alert } from "./Alert";
 
 interface WrapperProps {
@@ -15,6 +17,7 @@ interface BadgeContainerProps extends WrapperProps {
     labelAttribute: string;
     label: string;
     bootstrapStyle: BootstrapStyle;
+    // badgeType: string;
     badgeValue: string;
     microflow: string;
     onClickEvent: OnClickOptions;
@@ -42,6 +45,11 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
         this.subscriptionHandles = [];
         this.handleOnClick = this.handleOnClick.bind(this);
         this.handleSubscriptions = this.handleSubscriptions.bind(this);
+
+        // classNames(`label-${props.bootstrapStyleAttribute}`, {
+        //     badge: props.badgeType === "badge",
+        //     label: props.badgeType === "label"
+        // });
     }
 
     render() {
@@ -71,7 +79,8 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
 
     private updateValues(mxObject = this.props.mxObject): BadgeContainerState {
         return ({
-            bootstrapStyle: this.getValue(this.props.bootstrapStyleAttribute, this.props.bootstrapStyle, mxObject),
+            bootstrapStyle: this.getValue(this.props.bootstrapStyleAttribute,
+                this.props.bootstrapStyleAttribute, mxObject),
             label: this.getValue(this.props.labelAttribute, this.props.label, mxObject),
             value: this.getValue(this.props.valueAttribute, this.props.badgeValue, mxObject)
         });
@@ -119,7 +128,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
             errorMessage = "A 'Page' is required for 'Events' 'Show a page'";
         }
         if (errorMessage) {
-            errorMessage = `Error in badge configuration: ${errorMessage}`;
+            errorMessage = `Error in configuration: ${errorMessage}`;
         }
 
         return errorMessage;

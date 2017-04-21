@@ -4,9 +4,10 @@ Show a numerical indicator of how many items are associated with a link
 
 ## Features
 
- * Display a badge on a button
+ * Display a badge on a label
  * Attach an onclick microflow
- * Set a static label text when the persisted label is not specified
+ * Set a static label text when the dynamic label is not specified
+ * Set a static data text when the dynamic data is not specified
 
 ## Dependencies
 
@@ -19,7 +20,7 @@ The data source attributes specified in the `Data source` tab are optional. If n
 
 <img src="./assets/Static_attributes.png" width="600px" height="300px" />
 <img src="./assets/Data_source.png" width="600px" height="300px" />
-<img src="./assets/Behaviour.png" width="600px" height="300px" />
+<img src="./assets/Behavior.png" width="600px" height="300px" />
 
 ## Demo project
 
