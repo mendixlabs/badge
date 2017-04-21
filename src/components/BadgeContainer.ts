@@ -36,14 +36,12 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
     constructor(props: BadgeContainerProps) {
         super(props);
 
-        this.state = {
-            alertMessage: this.validateProps(),
-            bootstrapStyle: this.getValue(props.bootstrapStyleAttribute, props.bootstrapStyle, props.mxObject),
-            label: this.getValue(props.labelAttribute, props.label, props.mxObject),
-            value: this.getValue(props.valueAttribute, props.badgeValue, props.mxObject)
-        };
+        const defaultState = this.updateValues(props.mxObject);
+        defaultState.alertMessage = this.validateProps();
+        this.state = defaultState;
         this.subscriptionHandles = [];
         this.handleOnClick = this.handleOnClick.bind(this);
+        this.handleSubscriptions = this.handleSubscriptions.bind(this);
     }
 
     render() {
@@ -64,15 +62,15 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
 
     componentWillReceiveProps(newProps: BadgeContainerProps) {
         this.resetSubscriptions(newProps.mxObject);
-        this.updateValues(newProps.mxObject);
+        this.setState(this.updateValues(newProps.mxObject));
     }
 
     componentWillUnmount() {
         this.subscriptionHandles.forEach(window.mx.data.unsubscribe);
     }
 
-    private updateValues(mxObject?: mendix.lib.MxObject) {
-        this.setState({
+    private updateValues(mxObject = this.props.mxObject): BadgeContainerState {
+        return ({
             bootstrapStyle: this.getValue(this.props.bootstrapStyleAttribute, this.props.bootstrapStyle, mxObject),
             label: this.getValue(this.props.labelAttribute, this.props.label, mxObject),
             value: this.getValue(this.props.valueAttribute, this.props.badgeValue, mxObject)
@@ -91,7 +89,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
 
         if (mxObject) {
             this.subscriptionHandles.push(window.mx.data.subscribe({
-                callback: () => this.updateValues(mxObject),
+                callback: this.handleSubscriptions,
                 guid: mxObject.getGuid()
             }));
 
@@ -102,11 +100,15 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
             ].forEach((attr) =>
                 this.subscriptionHandles.push(window.mx.data.subscribe({
                     attr,
-                    callback: () => this.updateValues(mxObject),
+                    callback: this.handleSubscriptions,
                     guid: mxObject.getGuid()
                 }))
             );
         }
+    }
+
+    private handleSubscriptions() {
+        this.setState(this.updateValues());
     }
 
     private validateProps(): string {
