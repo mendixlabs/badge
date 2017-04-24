@@ -1,8 +1,8 @@
 import { Component, createElement } from "react";
-// import * as classNames from "classnames";
+import * as classNames from "classnames";
 
 import { Badge, BootstrapStyle } from "./Badge";
-// import { ColorLabel } from "./ColorLabel";
+import { ColorLabel } from "./ColorLabel";
 import { Alert } from "./Alert";
 
 interface WrapperProps {
@@ -17,7 +17,7 @@ interface BadgeContainerProps extends WrapperProps {
     labelAttribute: string;
     label: string;
     bootstrapStyle: BootstrapStyle;
-    // badgeType: string;
+    badgeType: string;
     badgeValue: string;
     microflow: string;
     onClickEvent: OnClickOptions;
@@ -46,10 +46,10 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
         this.handleOnClick = this.handleOnClick.bind(this);
         this.handleSubscriptions = this.handleSubscriptions.bind(this);
 
-        // classNames(`label-${props.bootstrapStyleAttribute}`, {
-        //     badge: props.badgeType === "badge",
-        //     label: props.badgeType === "label"
-        // });
+        classNames(`label-${props.bootstrapStyleAttribute}`, {
+            badge: props.badgeType === "badge",
+            label: props.badgeType === "label"
+        });
     }
 
     render() {
@@ -57,7 +57,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
             return createElement(Alert, { message: this.state.alertMessage });
         }
 
-        return createElement(Badge, {
+        return createElement(this.props.badgeType === "badge" ? Badge : ColorLabel, {
             bootstrapStyle: this.state.bootstrapStyle as BootstrapStyle,
             className: this.props.class,
             clickable: !!this.props.microflow || !!this.props.page,
@@ -79,8 +79,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
 
     private updateValues(mxObject = this.props.mxObject): BadgeContainerState {
         return ({
-            bootstrapStyle: this.getValue(this.props.bootstrapStyleAttribute,
-                this.props.bootstrapStyleAttribute, mxObject),
+            bootstrapStyle: this.getValue(this.props.bootstrapStyleAttribute, this.props.bootstrapStyle, mxObject),
             label: this.getValue(this.props.labelAttribute, this.props.label, mxObject),
             value: this.getValue(this.props.valueAttribute, this.props.badgeValue, mxObject)
         });
