@@ -1,7 +1,7 @@
 {
   "name": "badge",
   "widgetName": "Badge",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Show a numerical indicator of how many items are associated with a link",
   "scripts": {
     "pretest": "tsc",
