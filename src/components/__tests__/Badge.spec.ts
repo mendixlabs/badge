@@ -28,10 +28,16 @@ describe("Badge", () => {
         );
     });
 
-    it("with a badge type label should have the class label", () => {
+    it("configured as a label should have the class label", () => {
         const badge = createBadge({ badgeType: "label" });
 
         expect(badge.childAt(1).hasClass("label")).toBe(true);
+    });
+
+    it("configured as a badge should have the class badge", () => {
+        const badge = createBadge({ badgeType: "badge" });
+
+        expect(badge.childAt(1).hasClass("badge")).toBe(true);
     });
 
     it("with a click action should respond to click events", () => {
