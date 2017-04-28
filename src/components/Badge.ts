@@ -1,4 +1,4 @@
-import { DOM, SFC, createElement } from "react";
+import { DOM, SFC } from "react";
 import * as classNames from "classnames";
 
 import "../ui/Badge.css";
@@ -17,7 +17,7 @@ export interface BadgeProps {
 type BootstrapStyle = "default" | "info" | "primary" | "danger" | "success" | "warning";
 
 const Badge: SFC<BadgeProps> = (props) =>
-    createElement("div",
+    DOM.div(
         {
             className: classNames("widget-badge", props.className, { "widget-badge-link": props.clickable }),
             onClick: props.onClickAction,
