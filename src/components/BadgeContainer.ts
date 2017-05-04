@@ -153,7 +153,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
         }
     }
 
-    private static parseStyle(style = ""): {[key: string]: string} {
+    public static parseStyle(style = ""): {[key: string]: string} {
         try {
             return style.split(";").reduce<{[key: string]: string}>((styleObject, line) => {
                 const pair = line.split(":");
