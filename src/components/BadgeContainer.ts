@@ -9,11 +9,8 @@ interface WrapperProps {
     style?: string;
 }
 
-interface BadgeContainerProps extends WrapperProps {
+export interface BadgeContainerProps extends WrapperProps {
     valueAttribute: string;
-    bootstrapStyleAttribute: string;
-    labelAttribute: string;
-    label: string;
     bootstrapStyle: BootstrapStyle;
     badgeType: "badge" | "label";
     badgeValue: string;
@@ -25,8 +22,6 @@ interface BadgeContainerProps extends WrapperProps {
 interface BadgeContainerState {
     alertMessage?: string;
     value: string;
-    label: string;
-    bootstrapStyle: BootstrapStyle | string;
 }
 
 type OnClickOptions = "doNothing" | "showPage" | "callMicroflow";
@@ -52,10 +47,9 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
 
         return createElement(Badge, {
             badgeType: this.props.badgeType,
-            bootstrapStyle: this.state.bootstrapStyle as BootstrapStyle,
+            bootstrapStyle: this.props.bootstrapStyle,
             className: this.props.class,
             clickable: !!this.props.microflow || !!this.props.page,
-            label: this.state.label,
             onClickAction: this.handleOnClick,
             style: BadgeContainer.parseStyle(this.props.style),
             value: this.state.value
@@ -73,8 +67,6 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
 
     private updateValues(mxObject = this.props.mxObject): BadgeContainerState {
         return ({
-            bootstrapStyle: this.getValue(this.props.bootstrapStyleAttribute, this.props.bootstrapStyle, mxObject),
-            label: this.getValue(this.props.labelAttribute, this.props.label, mxObject),
             value: this.getValue(this.props.valueAttribute, this.props.badgeValue, mxObject)
         });
     }
@@ -97,22 +89,18 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
                 guid: mxObject.getGuid()
             }));
 
-            [
-                this.props.valueAttribute,
-                this.props.bootstrapStyleAttribute,
-                this.props.labelAttribute
-            ].forEach((attr) =>
-                this.subscriptionHandles.push(window.mx.data.subscribe({
-                    attr,
-                    callback: this.handleSubscriptions,
-                    guid: mxObject.getGuid()
-                }))
-            );
+            this.subscriptionHandles.push(window.mx.data.subscribe({
+                attr: this.props.valueAttribute,
+                callback: this.handleSubscriptions,
+                guid: mxObject.getGuid()
+            }));
         }
     }
 
     private handleSubscriptions() {
-        this.setState(this.updateValues());
+        this.setState({
+            value: this.getValue(this.props.valueAttribute, this.props.badgeValue, this.props.mxObject)
+        });
     }
 
     private validateProps(): string {
@@ -138,7 +126,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
         context.setContext(mxObject.getEntity(), mxObject.getGuid());
         if (onClickEvent === "callMicroflow" && microflow && mxObject.getGuid()) {
             window.mx.ui.action(microflow, {
-                error: (error) => window.mx.ui.error(`Error while executing microflow: ${microflow}: ${error.message}`),
+                error: error => window.mx.ui.error(`Error while executing microflow: ${microflow}: ${error.message}`),
                 params: {
                     applyto: "selection",
                     guids: [ mxObject.getGuid() ]
@@ -147,7 +135,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
         } else if (onClickEvent === "showPage" && page && mxObject.getGuid()) {
             window.mx.ui.openForm(page, {
                 context,
-                error: (error) => window.mx.ui.error(`Error while opening page ${page}: ${error.message}`)
+                error: error => window.mx.ui.error(`Error while opening page ${page}: ${error.message}`)
             });
         }
     }

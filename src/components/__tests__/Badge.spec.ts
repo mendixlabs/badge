@@ -10,7 +10,6 @@ describe("Badge", () => {
     it("should render the structure", () => {
         const badgeProps: BadgeProps = {
             badgeType: "badge",
-            label: "Custom Label",
             onClickAction: jasmine.createSpy("onClick"),
             value: "0"
         };
@@ -22,7 +21,6 @@ describe("Badge", () => {
                     className: "widget-badge",
                     onClick: jasmine.any(Function) as any
                 },
-                DOM.span({ className: "widget-badge-text" }, badgeProps.label),
                 DOM.span({ className: "widget-badge badge label-default" }, badgeProps.value)
             )
         );
