@@ -11,6 +11,7 @@ export interface BadgeProps {
     bootstrapStyle?: BootstrapStyle;
     clickable?: boolean;
     onClickAction?: () => void;
+    getRef?: (node: HTMLElement) => void;
 }
 
 export type BootstrapStyle = "default" | "info" | "primary" | "danger" | "success" | "warning";
@@ -21,5 +22,6 @@ export const Badge: SFC<BadgeProps> = (props) => DOM.span({
         "widget-badge-clickable": props.clickable
     }),
     onClick: props.onClickAction,
+    ref: props.getRef,
     style: props.style
 }, props.value);

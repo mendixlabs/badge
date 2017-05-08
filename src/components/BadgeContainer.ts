@@ -28,6 +28,7 @@ type OnClickOptions = "doNothing" | "showPage" | "callMicroflow";
 
 export default class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState> {
     private subscriptionHandles: number[];
+    private badge: HTMLButtonElement;
 
     constructor(props: BadgeContainerProps) {
         super(props);
@@ -38,6 +39,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
         this.subscriptionHandles = [];
         this.handleOnClick = this.handleOnClick.bind(this);
         this.handleSubscriptions = this.handleSubscriptions.bind(this);
+        this.setBadgeReference = this.setBadgeReference.bind(this);
     }
 
     render() {
@@ -50,10 +52,17 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
             bootstrapStyle: this.props.bootstrapStyle,
             className: this.props.class,
             clickable: !!this.props.microflow || !!this.props.page,
+            getRef: this.setBadgeReference,
             onClickAction: this.handleOnClick,
             style: BadgeContainer.parseStyle(this.props.style),
             value: this.state.value
         });
+    }
+
+    componentDidMount() {
+        if (this.badge && this.badge.parentElement) {
+            this.badge.parentElement.classList.add("widget-badge-wrapper");
+        }
     }
 
     componentWillReceiveProps(newProps: BadgeContainerProps) {
@@ -63,6 +72,10 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
 
     componentWillUnmount() {
         this.subscriptionHandles.forEach(window.mx.data.unsubscribe);
+    }
+
+    private setBadgeReference(ref: HTMLButtonElement) {
+        this.badge = ref;
     }
 
     private updateValues(mxObject = this.props.mxObject): BadgeContainerState {
