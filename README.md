@@ -19,15 +19,15 @@ Place the widget in the context of an object that has a label attribute, value a
 
 The data source attributes specified in the `Data source` tab are optional. If not set, static data should be specified in the `Display` tab.
 
-<img src="./assets/Static_attributes.png" width="600px" height="300px" />
-<img src="./assets/Data_source.png" width="600px" height="300px" />
-<img src="./assets/Behavior.png" width="600px" height="300px" />
+![1](assets/Static_attributes.png)
+![1](assets/Data_source.png)
+![1](assets/Behavior.png)
 
 ## Demo project
 
 [https://badge.mxapps.io/](https://badge.mxapps.io/)
 
-<img src="./assets/demo.png" width="900px" height="400px" />
+![1](assets/demo.png)
 
 ## Issues, suggestions and feature requests
 
