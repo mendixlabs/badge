@@ -4,20 +4,18 @@ Shows a value as a badge or a color label
 
 ## Features
 
- * Display a badge on a label
  * Display as a badge or a color label
  * Attach an onclick microflow
- * Set a static label text when the dynamic label is not specified
- * Set a static data text when the dynamic data is not specified
+ * Set static data text when the dynamic data is not specified
 
 ## Dependencies
 
 Mendix 7.1
 
 ## Usage
-Place the widget in the context of an object that has a label attribute, value attribute and bootstrap style attribute.
+Place the widget in the context of an object that has a value attribute.
 
-The data source attributes specified in the `Data source` tab are optional. If not set, static data should be specified in the `Display` tab.
+The value attribute specified in the `General` tab is optional. If not set, a static value should be specified.
 
 ![1](assets/General.png)
 ![1](assets/Display.png)
