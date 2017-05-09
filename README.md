@@ -1,6 +1,6 @@
 ## Badge
 
-Show a numerical indicator of how many items are associated with a link
+Shows a value as a badge or a color label
 
 ## Features
 
