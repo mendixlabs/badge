@@ -1,7 +1,10 @@
 import { DOM, SFC, SyntheticEvent } from "react";
 
-export const Overlay: SFC<{}> = ({ children }) =>
-    DOM.div({ style: { position: "relative" } },
+export const Overlay: SFC<{ myRef: (node: HTMLElement) => void }> = ({ children, myRef }) =>
+    DOM.div({
+            ref: (node) => myRef(node),
+            style: { position: "relative" }
+        },
         children,
         DOM.div({
             onClick: preventEvent,

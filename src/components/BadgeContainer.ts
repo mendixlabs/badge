@@ -164,6 +164,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
                 return styleObject;
             }, {});
         } catch (error) {
+            // tslint:disable no-console
             console.log("Failed to parse style", style, error);
         }
 

@@ -5,6 +5,7 @@ import BadgeContainer, { BadgeContainerProps } from "./components/BadgeContainer
 
 declare function require(name: string): string;
 
+// tslint:disable class-name
 export class preview extends Component<BadgeContainerProps, {}> {
 
     componentWillMount() {
@@ -13,10 +14,17 @@ export class preview extends Component<BadgeContainerProps, {}> {
     }
 
     render() {
-        return createElement(Overlay, {},
+        return createElement(Overlay, { myRef: this.parentInline },
             createElement(Badge, this.transformProps(this.props))
         );
     }
+
+    private parentInline(node?: HTMLElement) {
+        if (node && node.parentElement) {
+            node.parentElement.style.display = "inline-block";
+        }
+    }
+
     private transformProps(props: BadgeContainerProps): BadgeProps {
         const valueAttribute = props.valueAttribute ? props.valueAttribute.split(".")[2] : "";
         return {
@@ -31,7 +39,6 @@ export class preview extends Component<BadgeContainerProps, {}> {
 
     private addPreviewStyle(css: string, styleId: string) {
         // This workaround is to load style in the preview temporary till mendix has a better solution
-        // const css = require(stylePath);
         const iFrame = document.getElementsByClassName("t-page-editor-iframe")[0] as HTMLIFrameElement;
         const iFrameDoc = iFrame.contentDocument;
         if (!iFrameDoc.getElementById(styleId)) {
