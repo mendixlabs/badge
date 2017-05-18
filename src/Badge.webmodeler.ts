@@ -1,11 +1,12 @@
 import { Component, createElement } from "react";
 import { Badge, BadgeProps } from "./components/Badge";
 import { Overlay } from "./components/Overlay";
+import { Alert } from "./components/Alert";
 import BadgeContainer, { BadgeContainerProps } from "./components/BadgeContainer";
 
 declare function require(name: string): string;
 
-// tslint:disable class-name
+// tslint:disable-next-line class-name
 export class preview extends Component<BadgeContainerProps, {}> {
 
     componentWillMount() {
@@ -14,7 +15,9 @@ export class preview extends Component<BadgeContainerProps, {}> {
     }
 
     render() {
+        const message = BadgeContainer.validateProps(this.props);
         return createElement(Overlay, { myRef: this.parentInline },
+            message && Alert(message),
             createElement(Badge, this.transformProps(this.props))
         );
     }
@@ -33,7 +36,7 @@ export class preview extends Component<BadgeContainerProps, {}> {
             className: props.class,
             clickable: false,
             style: BadgeContainer.parseStyle(props.style),
-            value: props.badgeValue || (valueAttribute ? "[" + valueAttribute + "]" : "-")
+            value: valueAttribute ? "[" + valueAttribute + "]" : props.badgeValue
         };
     }
 
