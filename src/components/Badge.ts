@@ -14,7 +14,7 @@ export interface BadgeProps {
     getRef?: (node: HTMLElement) => void;
 }
 
-export type BootstrapStyle = "default" | "info" | "primary" | "danger" | "success" | "warning";
+export type BootstrapStyle = "default" | "info" | "inverse" | "primary" | "danger" | "success" | "warning";
 
 export const Badge: SFC<BadgeProps> = (props) => DOM.span({
     className: classNames("widget-badge", props.badgeType, {

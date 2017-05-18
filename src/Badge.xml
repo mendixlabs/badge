@@ -35,6 +35,7 @@
                 <enumerationValue key="primary">Primary</enumerationValue>
                 <enumerationValue key="success">Success</enumerationValue>
                 <enumerationValue key="info">Info</enumerationValue>
+                <enumerationValue key="inverse">Inverse</enumerationValue>
                 <enumerationValue key="warning">Warning</enumerationValue>
                 <enumerationValue key="danger">Danger</enumerationValue>
             </enumerationValues>
@@ -58,16 +59,16 @@
                 <enumerationValue key="callMicroflow">Call a microflow</enumerationValue>
             </enumerationValues>
         </property>
+        <property key="page" type="form" required="false">
+            <caption>Page</caption>
+            <category>Events</category>
+            <description>The page that will be opened on click</description>
+        </property>
         <property key="microflow" type="microflow" required="false">
             <caption>Microflow</caption>
             <category>Events</category>
             <description>The microflow that will be executed on click</description>
             <returnType type="Void" />
-        </property>
-        <property key="page" type="form" required="false">
-            <caption>Page</caption>
-            <category>Events</category>
-            <description>The page that will be opened on click</description>
         </property>
     </properties>
 </widget>
