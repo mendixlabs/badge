@@ -5,6 +5,7 @@ import "../ui/Badge.css";
 
 export interface BadgeProps {
     badgeType: "badge" | "label";
+    defaultValue?: string;
     className?: string;
     style?: object;
     value?: string;
@@ -24,4 +25,4 @@ export const Badge: SFC<BadgeProps> = (props) => DOM.span({
     onClick: props.onClickAction,
     ref: props.getRef,
     style: props.style
-}, props.value);
+}, props.value || props.defaultValue);
