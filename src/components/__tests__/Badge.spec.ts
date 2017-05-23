@@ -26,7 +26,7 @@ describe("Badge", () => {
         );
     });
 
-    it("should show no value when no value nor default value provided", () => {
+    it("should show no value when no value or default value provided", () => {
         const value = "value";
         const badge = createBadge({ badgeType: "label", value, defaultValue: "default value" });
 
@@ -40,7 +40,7 @@ describe("Badge", () => {
         expect(badge.text()).toBe(defaultValue);
     });
 
-    it("should show no value when no value nor default value provided", () => {
+    it("should show no value when no value or default value provided", () => {
         const badge = createBadge({ badgeType: "label", value: undefined });
 
         expect(badge.text()).toBe("");
