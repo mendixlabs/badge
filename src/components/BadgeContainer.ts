@@ -85,6 +85,9 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
     private getValue(attributeName: string, mxObject?: mendix.lib.MxObject): string {
         if (mxObject && attributeName) {
             const value = mxObject.get(attributeName);
+            if (mxObject.isEnum(attributeName)) {
+                return mxObject.getEnumCaption(attributeName, value as string);
+            }
             return value.toString();
         }
 
