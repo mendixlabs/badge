@@ -5,6 +5,10 @@ import BadgeContainer, { BadgeContainerProps } from "./components/BadgeContainer
 
 declare function require(name: string): string;
 
+type VisibilityMap = {
+    [P in keyof BadgeContainerProps]: boolean;
+};
+
 // tslint:disable-next-line class-name
 export class preview extends Component<BadgeContainerProps, {}> {
     render() {
@@ -37,4 +41,15 @@ export class preview extends Component<BadgeContainerProps, {}> {
 
 export function getPreviewCss() {
     return require("./ui/Badge.css");
+}
+
+export function getVisibleProperties(props: BadgeContainerProps, visibilityMap: VisibilityMap) {
+    if (props.onClickEvent === "doNothing") {
+        visibilityMap.microflow = false;
+        visibilityMap.page = false;
+    } else if (props.onClickEvent === "callMicroflow") {
+        visibilityMap.page = false;
+    } else if (props.onClickEvent === "showPage") {
+        visibilityMap.microflow = false;
+    }
 }
