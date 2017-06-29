@@ -34,7 +34,7 @@ export class preview extends Component<BadgeContainerProps, {}> {
             className: props.class,
             clickable: false,
             style: BadgeContainer.parseStyle(props.style),
-            value: valueAttribute ? "[" + valueAttribute + "]" : props.badgeValue
+            value: valueAttribute ? "[" + valueAttribute + "]" : props.badgeValue || "Badge"
         };
     }
 }
