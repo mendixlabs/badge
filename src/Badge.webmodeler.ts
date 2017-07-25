@@ -1,4 +1,4 @@
-import { Component, DOM, createElement } from "react";
+import { Component, createElement } from "react";
 import { Badge, BadgeProps } from "./components/Badge";
 import { Alert } from "./components/Alert";
 import BadgeContainer, { BadgeContainerProps } from "./components/BadgeContainer";
@@ -13,7 +13,7 @@ type VisibilityMap = {
 export class preview extends Component<BadgeContainerProps, {}> {
     render() {
         const message = BadgeContainer.validateProps(this.props);
-        return DOM.div({ ref: this.parentInline },
+        return createElement("div", { ref: this.parentInline },
             message && Alert({ message }),
             createElement(Badge, this.transformProps(this.props))
         );
