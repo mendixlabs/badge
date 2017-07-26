@@ -1,7 +1,7 @@
 {
   "name": "badge",
   "widgetName": "Badge",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Shows a value as a badge or a color label",
   "scripts": {
     "pretest": "tsc",
