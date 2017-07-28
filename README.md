@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.org/mendixlabs/badge.svg?branch=master)](https://travis-ci.org/mendixlabs/badge)
+[![Dependency Status](https://david-dm.org/mendixlabs/badge.svg)](https://david-dm.org/mendixlabs/badge)
+[![Dev Dependency Status](https://david-dm.org/mendixlabs/badge.svg#info=devDependencies)](https://david-dm.org/mendixlabs/badge#info=devDependencies)
+[![codecov](https://codecov.io/gh/mendixlabs/badge/branch/master/graph/badge.svg)](https://codecov.io/gh/mendixlabs/badge)
+
 ## Badge
 
 Shows a value as a badge or a color label
@@ -16,15 +21,15 @@ Mendix 7.4
 Place the widget in the context of an object that has a value attribute.
 
 The value attribute specified in the `General` tab is optional. If not set, a static value should be specified.
-![1](https://raw.githubusercontent.com/mendixlabs/badge/v1.2.1/assets/General.png)
-![1](https://raw.githubusercontent.com/mendixlabs/badge/v1.2.1/assets/Display.png)
-![1](https://raw.githubusercontent.com/mendixlabs/badge/v1.2.1/assets/Events.png)
+![General tab](/assets/General.png)
+![Display tab](/assets/Display.png)
+![Events tab](/assets/Events.png)
 
 ## Demo project
 
 [https://badge.mxapps.io/](https://badge.mxapps.io/)
 
-![1](https://raw.githubusercontent.com/mendixlabs/badge/v1.2.1/assets/demo.png)
+![demo](/assets/demo.png)
 
 ## Issues, suggestions and feature requests
 
