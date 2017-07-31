@@ -4,7 +4,7 @@ import { Badge, BootstrapStyle } from "./Badge";
 import { Alert } from "./Alert";
 
 interface WrapperProps {
-    class?: string;
+    "class"?: string;
     mxObject?: mendix.lib.MxObject;
     style?: string;
 }
@@ -35,7 +35,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
 
         this.state = {
             alertMessage: BadgeContainer.validateProps(this.props),
-            value: this.getValue(this.props.valueAttribute, this.props.mxObject)
+            value: BadgeContainer.getValue(this.props.valueAttribute, this.props.mxObject)
         };
         this.subscriptionHandles = [];
         this.handleOnClick = this.handleOnClick.bind(this);
@@ -47,7 +47,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
         if (this.state.alertMessage) {
             return createElement(Alert, {
                 bootstrapStyle: "danger",
-                className: "widget-badge",
+                className: "widget-badge-alert",
                 message: this.state.alertMessage
             });
         }
@@ -74,7 +74,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
     componentWillReceiveProps(newProps: BadgeContainerProps) {
         this.resetSubscriptions(newProps.mxObject);
         this.setState({
-            value: this.getValue(this.props.valueAttribute, newProps.mxObject)
+            value: BadgeContainer.getValue(this.props.valueAttribute, newProps.mxObject)
         });
     }
 
@@ -82,11 +82,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
         this.subscriptionHandles.forEach(window.mx.data.unsubscribe);
     }
 
-    private setBadgeReference(ref: HTMLButtonElement) {
-        this.badge = ref;
-    }
-
-    private getValue(attributeName: string, mxObject?: mendix.lib.MxObject): string {
+    private static getValue(attributeName: string, mxObject?: mendix.lib.MxObject): string {
         if (mxObject && attributeName) {
             const value = mxObject.get(attributeName);
             if (mxObject.isEnum(attributeName)) {
@@ -96,6 +92,10 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
         }
 
         return "";
+    }
+
+    private setBadgeReference(ref: HTMLButtonElement) {
+        this.badge = ref;
     }
 
     private resetSubscriptions(mxObject?: mendix.lib.MxObject) {
@@ -117,7 +117,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
 
     private handleSubscriptions() {
         this.setState({
-            value: this.getValue(this.props.valueAttribute, this.props.mxObject)
+            value: BadgeContainer.getValue(this.props.valueAttribute, this.props.mxObject)
         });
     }
 
