@@ -15,7 +15,7 @@ exports.config = {
     bail: 0,
     screenshotPath: "dist/wdio/",
     baseUrl: debug ? "http://localhost:8080/" : "https://badge.mxapps.io/",
-    waitforTimeout: 10000,
+    waitforTimeout: 20000,
     connectionRetryTimeout: 90000,
     connectionRetryCount: 0,
     services: [ "selenium-standalone" ],
