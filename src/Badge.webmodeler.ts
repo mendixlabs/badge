@@ -46,12 +46,19 @@ export function getPreviewCss() {
 export function getVisibleProperties(valueMap: BadgeContainerProps, visibilityMap: VisibilityMap) {
     if (valueMap.onClickEvent === "doNothing") {
         visibilityMap.microflow = false;
+        visibilityMap.nanoflow = false;
         visibilityMap.page = false;
     } else if (valueMap.onClickEvent === "callMicroflow") {
         visibilityMap.microflow = true;
+        visibilityMap.nanoflow = false;
+        visibilityMap.page = false;
+    } else if (valueMap.onClickEvent === "callNanoflow") {
+        visibilityMap.microflow = false;
+        visibilityMap.nanoflow = true;
         visibilityMap.page = false;
     } else if (valueMap.onClickEvent === "showPage") {
         visibilityMap.microflow = false;
+        visibilityMap.nanoflow = false;
         visibilityMap.page = true;
     }
 
