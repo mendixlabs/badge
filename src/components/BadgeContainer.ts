@@ -16,7 +16,7 @@ export interface BadgeContainerProps extends WrapperProps {
     badgeType: "badge" | "label";
     badgeValue: string;
     microflow: string;
-    nanoflow: string;
+    nanoflow: Nanoflow;
     onClickEvent: OnClickOptions;
     page: string;
 }
@@ -24,6 +24,10 @@ export interface BadgeContainerProps extends WrapperProps {
 interface BadgeContainerState {
     alertMessage?: string;
     value: string;
+}
+
+interface Nanoflow {
+    nanoflow?: object[];
 }
 
 type OnClickOptions = "doNothing" | "showPage" | "callMicroflow" | "callNanoflow";
@@ -114,7 +118,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
         let errorMessage = "";
         if (props.onClickEvent === "callMicroflow" && !props.microflow) {
             errorMessage = "A 'Microflow' is required for 'Events' 'Call a microflow'";
-        } else if (props.onClickEvent === "callNanoflow" && !props.nanoflow) {
+        } else if (props.onClickEvent === "callNanoflow" && !props.nanoflow.nanoflow) {
             errorMessage = "A 'Nanoflow' is required for 'Events' 'Call a nanoflow'";
         } else if (props.onClickEvent === "showPage" && !props.page) {
             errorMessage = "A 'Page' is required for 'Events' 'Show a page'";
@@ -144,7 +148,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
         } else if (onClickEvent === "callNanoflow" && nanoflow) {
             window.mx.data.callNanoflow({
                 context,
-                error: (error: Error) => mx.ui.error(`Error executing nanoflow ${nanoflow} : ${error.message}`),
+                error: error => mx.ui.error(`Error executing nanoflow ${nanoflow} : ${error.message}`),
                 nanoflow,
                 origin: mxform
             });
