@@ -27,7 +27,8 @@ interface BadgeContainerState {
 }
 
 interface Nanoflow {
-    nanoflow?: object[];
+    nanoflow: object[];
+    paramsSpec: { Progress: string };
 }
 
 type OnClickOptions = "doNothing" | "showPage" | "callMicroflow" | "callNanoflow";
