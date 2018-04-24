@@ -141,6 +141,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
         if (onClickEvent === "callMicroflow" && microflow && mxObject.getGuid()) {
             window.mx.ui.action(microflow, {
                 error: error => window.mx.ui.error(`Error while executing microflow: ${microflow}: ${error.message}`),
+                origin: mxform,
                 params: {
                     applyto: "selection",
                     guids: [ mxObject.getGuid() ]
