@@ -15,7 +15,7 @@ Shows a value as a badge or a color label
 
 ## Dependencies
 
-Mendix 7.4
+Mendix 7.13.1
 
 ## Usage
 Place the widget in the context of an object that has a value attribute.

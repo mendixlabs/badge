@@ -150,7 +150,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
         } else if (onClickEvent === "callNanoflow" && nanoflow) {
             window.mx.data.callNanoflow({
                 context,
-                error: error => mx.ui.error(`Error executing nanoflow ${nanoflow} : ${error.message}`),
+                error: error => window.mx.ui.error(`Error while executing nanoflow ${nanoflow} : ${error.message}`),
                 nanoflow,
                 origin: mxform
             });
