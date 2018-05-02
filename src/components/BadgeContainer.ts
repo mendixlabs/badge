@@ -147,7 +147,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
                     guids: [ mxObject.getGuid() ]
                 }
             });
-        } else if (onClickEvent === "callNanoflow" && nanoflow) {
+        } else if (onClickEvent === "callNanoflow" && nanoflow.nanoflow) {
             window.mx.data.callNanoflow({
                 context,
                 error: error => window.mx.ui.error(`Error while executing nanoflow ${nanoflow} : ${error.message}`),
