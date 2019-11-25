@@ -36,7 +36,7 @@ type OnClickOptions = "doNothing" | "showPage" | "callMicroflow" | "callNanoflow
 type PageLocation = "content"| "popup" | "modal";
 
 export default class BadgeContainer extends Component<BadgeContainerProps, BadgeContainerState> {
-    private subscriptionHandles: number[];
+    private subscriptionHandles: number[] = [];
 
     constructor(props: BadgeContainerProps) {
         super(props);
@@ -48,6 +48,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
         this.subscriptionHandles = [];
         this.handleOnClick = this.handleOnClick.bind(this);
         this.handleSubscriptions = this.handleSubscriptions.bind(this);
+        this.resetSubscriptions(props.mxObject);
     }
 
     render() {
@@ -96,7 +97,7 @@ export default class BadgeContainer extends Component<BadgeContainerProps, Badge
 
     private resetSubscriptions(mxObject?: mendix.lib.MxObject) {
         this.subscriptionHandles.forEach(window.mx.data.unsubscribe);
-
+        this.subscriptionHandles = [];
         if (mxObject) {
             this.subscriptionHandles.push(window.mx.data.subscribe({
                 callback: this.handleSubscriptions,
